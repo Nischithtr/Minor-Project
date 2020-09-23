@@ -9,6 +9,7 @@ if(b_total==0)
     optimized_channels=[];
     return;
 end
+disp("Maximum channel capacity after applying Shannon's Law at existing conditions is " + b_total);
 while(b_total>b_target)
 [~, ind] = sort([unoptimized_channels.diff],'ascend');
 unoptimized_channels = unoptimized_channels(ind);
@@ -27,9 +28,15 @@ optimized_channels=unoptimized_channels;
 for i=1:length(optimized_channels)
     optimized_channels(i).power=10*log10((2.^optimized_channels(i).nbits_rounded)-1);
 end
-disp("It's Alive!! It's Alive");
-for i=1:length(optimized_channels)
-    optimized_channels(i).print();
-end
+figure(1);
+ii = 1:1:length(optimized_channels);
+tone_loading = [optimized_channels.nbits_rounded];
+tiledlayout(2,1);
+nexttile;
+stem(ii,snr);
+title("SNR distribution of the channels");
+nexttile;
+stem(ii, tone_loading);
+title("Tone loading of different channels");
 end
 

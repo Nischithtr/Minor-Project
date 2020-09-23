@@ -10,12 +10,12 @@ classdef channel < handle
         function find_diff(obj)
             obj.diff=obj.nbits-obj.nbits_rounded;
         end
-        function print(self)
-            disp("snr="+self.snr);
-            disp("nbits="+self.nbits);
-            disp("nbits_rounded="+self.nbits_rounded);
-            disp("power="+self.power);
-            disp("diff="+self.diff);
+        function print(obj)
+            disp("snr="+obj.snr);
+            disp("nbits="+obj.nbits);
+            disp("nbits_rounded="+obj.nbits_rounded);
+            disp("power="+obj.power);
+            disp("diff="+obj.diff);
         end
 
     end
