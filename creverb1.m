@@ -1,7 +1,15 @@
 function [rand_num] = creverb1(nsc)
-    rand_num = [];
+    clc
+    rand_num = zeros(1, 4*nsc);
+    buffer = zeros(1, 2*nsc);
+    for i=1:2*nsc
+        buffer(i)=-1;
+    end
     % Generate and store 4Nsc random numbers
-    for i=1:1:4*nsc
-        rand_num = [rand_num prbs(i, nsc)];
+    for i=1:4*nsc
+        rand_num(i) = prbs(i, nsc, buffer);
+        if(i<=2*nsc)
+            buffer(i)= rand_num(i);
+        end
     end
 end
