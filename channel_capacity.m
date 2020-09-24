@@ -15,7 +15,7 @@ gamma=0; %Initialise gamma = 0 (dB)
 for i=1:N %Initalise N channels and assign ids
     channels(i)=channel;
     channels(i).channel_id=i;
-    channels(j).snr=10*log10(snr(j));
+    channels(i).snr=10*log10(snr(i));
 end
 for i=1:10 % This step iteratively refines the gamma value. More the number of iterations, finer the value. But, in most examples, 10 is taken as sufficient number
     used_carriers=N; %Initially assume all carriers are useful
