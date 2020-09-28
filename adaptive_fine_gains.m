@@ -7,7 +7,19 @@ if(b_total==0) %If total number of bits is 0, then bad channel
     optimized_channels=[];
     return;
 end
+%Checking if target number of bits is greater than that of Shannon's Law
 disp("Maximum channel capacity after applying Shannon's Law at existing conditions is " + b_total);
+if(b_target>b_total)
+    disp("The number of target bits is greater than what Shannon's Capacity Law supports with given SNR profile. Hence, this b_target is not possible");
+    optimized_channels=[];
+    return;
+end
+%Checking for negative number of bits
+if(b_target<=0)
+    disp("The number of target bits is invalid");
+    optimized_channels=[];
+    return;
+end
 while(b_total>b_target) %If b_total>b_target, remove one bit from channel with smallest delta and recalculate delta for that channel
 k=1;
 [~, ind] = sort([unoptimized_channels.diff],'ascend');
