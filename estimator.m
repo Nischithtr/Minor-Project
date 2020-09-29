@@ -1,4 +1,4 @@
-function [estimate] = estimator(received_symbols,b_n)
+function [estimate] = estimator(received_symbol,b_n)
     % Number of sub-carriers
     [~,Nsc] = size(b_n); 
 
@@ -17,19 +17,19 @@ function [estimate] = estimator(received_symbols,b_n)
             
          % Estimate is the constellation point closest to received symbol
         elseif (b_n(ii) == 1)
-            [~,index] = min(abs(qam_1 - received_symbols(ii)));
+            [~,index] = min(abs(qam_1 - received_symbol(ii)));
             estimate(ii)  = qam_1(index);
             
         % For b_n = 3
         elseif (b_n(ii) == 3)
-            [~,index] = min(abs(qam_3 - received_symbols(ii)));
+            [~,index] = min(abs(qam_3 - received_symbol(ii)));
             estimate(ii)  = qam_3(index);
             
         % Similar philosophy used for 2 and higher constellations 
         elseif(b_n(ii) >= 2)
             % Round DOWN the real and and imaginary parts of received symbol  
-            real_floor = floor(real(received_symbols(ii)));
-            imag_floor = floor(imag(received_symbols(ii)));
+            real_floor = floor(real(received_symbol(ii)));
+            imag_floor = floor(imag(received_symbol(ii)));
             
             % In case the rounded values are even, round it UP
             if (mod(real_floor,2) == 0)
@@ -62,15 +62,16 @@ function [estimate] = estimator(received_symbols,b_n)
                 if ((abs(real(estimate(ii))) >= ((2 ^ ((b_n(ii) - 1)/2)) + 1)) && (abs(imag(estimate(ii))) >= ((2 ^ ((b_n(ii) - 1)/2)) + 1)))
                     % valid_end_points captures all the points surrounding
                     % the invalid points in first quadrant
-                    for jj = 5 : 2 : b_n(ii) - 2
-                        valid_end_points = [(2 .* valid_end_points(1,:) - 1 + 2i) (2 .* valid_end_points(1,:) + 1 + 2i) ; (2 .* valid_end_points(2,:) + 1) (2 .* valid_end_points(1,:) + 1 + 2i)];    
-                    end
+                    valid_end_points_abs = ((2 ^ ((b_n(ii) - 1)/2)) + 1) : 2 : (3 * (2 ^ ((b_n(ii) - 3)/2)));
+                    valid_end_points_hor = valid_end_points_abs + i * ((2 ^ ((b_n(ii) - 1)/2)) - 1);
+                    valid_end_points_ver = ((2 ^ ((b_n(ii) - 1)/2)) - 1) + i * valid_end_points_abs;
+                    valid_end_points = [valid_end_points_hor valid_end_points_ver];
                     
                     % Mapping the valid points to the correct quadrant
                     valid_end_points = real(valid_end_points) .* real(estimate(ii)) ./ abs(real(estimate(ii))) + i * imag(valid_end_points) * imag(estimate(ii)) / abs(imag(estimate(ii)));
                     
                     % Find the end point closest to the received point
-                    [~,index] = min(abs(valid_end_points - received_symbols(ii)));
+                    [~,index] = min(abs(valid_end_points - received_symbol(ii)));
                     estimate(ii) = valid_end_points(index);
                 end
             end

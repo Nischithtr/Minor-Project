@@ -3,6 +3,7 @@ function [bit_stream] = constellation_to_bit_mapper(estimate,b_n)
     [~,Nsc] = size(b_n); 
     % Initialize bit stream
     bit_stream = [];
+    estimate_copy = estimate;
     
     % Going to  4n constellation point
     goto4n = [0 -2i -2 -(2 + 2i)];
