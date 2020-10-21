@@ -35,7 +35,7 @@ while(b_total<b_target) %If b_total<b_target, add one bit from channel with smal
 k=1;
 [~, ind] = sort([unoptimized_channels.diff],'descend');
 unoptimized_channels = unoptimized_channels(ind);
-while(unoptimized_channels(k).nbits_rounded>bi_max)
+while(unoptimized_channels(k).nbits_rounded>=bi_max)
     k=k+1;
 end
 unoptimized_channels(k).nbits_rounded=unoptimized_channels(k).nbits_rounded+1;

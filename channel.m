@@ -10,6 +10,7 @@ classdef channel < handle
         diff; %nbits-nbits_rounded
         snr; %The snr that must be maintained in the channel for given QoS
         channel_id; %The index of the channel in the multi-tone array during initialisation
+        pdiff;
     end
     methods
         function find_diff(obj)
