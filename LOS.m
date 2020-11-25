@@ -1,5 +1,5 @@
 function Pr = LOS(Nsc)
-    Pt = 1 / 256 ;
+    Pt = 1 / Nsc ; % In milliwatss
     Gt = 1;
     Gr = 8;
     bandwidth = 4.3125 * Nsc;
@@ -9,5 +9,5 @@ function Pr = LOS(Nsc)
     lambda = c ./ f;
     d = 1000 ;
     Pr = Pt * Gt * Gr / (4 * pi * d)^2 .* (lambda).^2;
-    Pr_dBm = 10 * log10(Pr * 1000) ; 
+    Pr_dBm = 10 * log10(Pr) ; 
     snr = Pr_dBm - 10 * log10(bandwidth);

@@ -1,4 +1,5 @@
 t=1:256; % Tone loading table not yet used.
+Nsc = 256;
 snr = LOS(Nsc)
 snr = snr' ;
 %snr=SPN_to_SNR_converter(); % Get the SNR table
