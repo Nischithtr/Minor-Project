@@ -1,0 +1,13 @@
+function Pr = LOS(Nsc)
+    Pt = 1 / 256 ;
+    Gt = 1;
+    Gr = 8;
+    bandwidth = 4.3125 * Nsc;
+    base_freq = 10 ^ 3; % Change the power in order to observe change in senitivity wrt frequency
+    f = base_freq : 4.3125 : base_freq + bandwidth;
+    c = 3 * 10^8 ;
+    lambda = c ./ f;
+    d = 1000 ;
+    Pr = Pt * Gt * Gr / (4 * pi * d)^2 .* (lambda).^2;
+    Pr_dBm = 10 * log10(Pr * 1000) ; 
+    snr = Pr_dBm - 10 * log10(bandwidth);
