@@ -28,5 +28,5 @@ function [mapped_val] = qam_mod(varargin)
         t_n = t;
         extracted_bits = bit_extract(data,b_n); % Extract bits onto the variable based on bit allocation table
     end
-    mapped_val = g_array .* constellation_mapper(extracted_bits,b_n); % Convert the extracted bits to QAM symbols
+    mapped_val = g_array' .* constellation_mapper(extracted_bits,b_n); % Convert the extracted bits to QAM symbols
 end

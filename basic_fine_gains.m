@@ -46,7 +46,9 @@ optimized_channels=channels;
 optimized_channels=optimized_channels(ind);
 for i=1:length(optimized_channels)
     optimized_channels(i).power=10*log10((2.^optimized_channels(i).nbits_rounded)-1);
+    optimized_channels(i).nbits_rounded = min(20,optimized_channels(i).nbits_rounded);
 end
+
 figure(1); %Plot the tone order and snr for the different channels.
 ii = 1:1:length(optimized_channels);
 tone_loading = [optimized_channels.nbits_rounded];
