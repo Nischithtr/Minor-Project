@@ -9,10 +9,14 @@ bits2persymbol = 2 .* ones(256,1);
 g_pilot = ones(1,256);
 symbols_sent_pilot = qam_mod(data_pilot , bits2persymbol,t,g_pilot);
 
-rayleigh_channel = sqrt(1/2) .* (randn(1) + 1i*randn(1,2));% Rayleigh channel added
-h = Pr ./ Pt * rayleigh_channel;
-h=abs(h);
-[h_selected, max_pos]=max(h, [], 2);
+rayleigh_channel = sqrt(1/2) .* (randn(1,2) + 1i*randn(1,2));% Rayleigh channel added
+h = Pr ./ Pt .* rayleigh_channel;
+h_abs = abs(h);
+[~, max_pos]=max(h_abs, [], 2);
+h_selected = zeros(256,1);
+for ii = 1 : Nsc
+    h_selected(ii,1) = h(ii,max_pos(ii));
+end
 noise_power_db = -140 : 10 : 30; % Noise power in dbM
 noise_power_abs = 10 .^ (noise_power_db ./ 10); % Absolute noise power
 noise = sqrt(noise_power_abs/2) .* ((randn(Nsc,1)) + 1i*randn(Nsc,1)); % Noise
