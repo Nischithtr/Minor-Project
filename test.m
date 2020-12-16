@@ -21,12 +21,15 @@ estimated_Pr = (abs(symbols_received_pilot) .^ 2) ./ (abs(symbols_sent_pilot) .^
 estimated_h = (symbols_received_pilot ./ symbols_sent_pilot);
 snr = 10 * log10(estimated_Pr) - noise_power_db - 10 * log10(bandwidth) ;
 
-g_array = zeros(18,Nsc);
-data = cell(1,18);
-received_symbols = zeros(256,18);
-bit_stream_rcvd = cell(1,18);
+len_noise_array=length(noise_power_db);
 
-for ii = 1:18
+g_array = zeros(len_noise_array,Nsc);
+data = cell(1,len_noise_array);
+received_symbols = zeros(256,len_noise_array);
+bit_stream_rcvd = cell(1,len_noise_array);
+
+for ii = 1:len_noise_array
+    fprintf("For noise power of %d Hz/dBm ", noise_power_db(ii));
     b_channel(ii,:) = basic_fine_gains(snr(:,ii)); % Get the adaptive bit loading
     g_array(ii,:)=[b_channel(ii,:).pdiff] ;
     bn(ii,:)=[b_channel(ii,:).nbits_rounded]; % Get only the number of rounded bits in the channel
@@ -35,7 +38,7 @@ for ii = 1:18
     received_symbols(:,ii) = h .* QAM_symbols(:,ii) + noise(ii);% QAM symbol + AWGN noise``
     bit_stream_rcvd{:,ii} = qam_demod(received_symbols(:,ii),bn(ii,:),g_array(ii,:),estimated_h); % Perform demod on the receiver end
     err(ii) = sum(bit_stream_rcvd{:,ii} ~= data{:,ii}) ./ sum(bn(ii,:));
- 
+    pause(3);
 end
 
 % Plot of BER vs SNR
