@@ -10,7 +10,7 @@ g_pilot = ones(1,256);
 symbols_sent_pilot = qam_mod(data_pilot , bits2persymbol,t,g_pilot);
 
 rayleigh_channel = sqrt(1/2) .* (randn(1,2) + 1i*randn(1,2));% Rayleigh channel added
-h = Pr ./ Pt .* rayleigh_channel;
+h = sqrt(Pr) ./ sqrt(Pt) .* rayleigh_channel;
 h_abs = abs(h);
 [~, max_pos]=max(h_abs, [], 2);
 h_selected = zeros(256,1);
@@ -21,7 +21,7 @@ noise_power_db = -140 : 10 : 30; % Noise power in dbM
 noise_power_abs = 10 .^ (noise_power_db ./ 10); % Absolute noise power
 noise = sqrt(noise_power_abs/2) .* ((randn(Nsc,1)) + 1i*randn(Nsc,1)); % Noise
 
-symbols_received_pilot = symbols_sent_pilot .* Pr / Pt * rayleigh_channel;
+symbols_received_pilot = symbols_sent_pilot .* h;
 [symbols_received_pilot_selected, max_pos] = max(symbols_received_pilot, [], 2);
 estimated_Pr = (abs(symbols_received_pilot_selected) .^ 2) ./ (abs(symbols_sent_pilot) .^ 2) * Pt;
 estimated_h = (symbols_received_pilot_selected ./ symbols_sent_pilot);
