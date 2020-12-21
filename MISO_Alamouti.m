@@ -12,7 +12,10 @@ data_pilot = creverb1(Nsc); % PRBS
 bits2persymbol = 2 .* ones(1,256);
 g_pilot = ones(1,256);
 t_pilot = 1:256;
-symbols_sent_pilot = qam_mod(data_pilot , bits2persymbol,t_pilot,g_pilot);
+symbols_sent_pilot1 = qam_mod(data_pilot , bits2persymbol,t_pilot,g_pilot);
+symbols_sent_pilot2 = qam_mod(data_pilot , bits2persymbol,t_pilot,g_pilot);
+
+symbols_sent_pilot = [symbols_sent_pilot1 symbols_sent_pilot2];
 
 rayleigh_channel = sqrt(1/2) .* (randn(1,2) + 1i*randn(1,2));% Rayleigh channel added
 h = sqrt(Pr) ./ sqrt(Pt) * rayleigh_channel;
@@ -20,7 +23,10 @@ noise_power_db = -80; % Noise power in dbM
 noise_power_abs = 10 .^ (noise_power_db ./ 10); % Absolute noise power
 noise = sqrt(noise_power_abs/2) .* ((randn(Nsc,1)) + 1i*randn(Nsc,1)); % Noise
 
-symbols_received_pilot = symbols_sent_pilot .* h;
+symbols_received_pilot1 = symbols_sent_pilot1 .* h(:,1);
+symbols_received_pilot2 = symbols_sent_pilot2 .* h(:,2);
+
+symbols_received_pilot = [symbols_received_pilot1 symbols_received_pilot2];
 
 estimated_h = (symbols_received_pilot ./ symbols_sent_pilot);
 
