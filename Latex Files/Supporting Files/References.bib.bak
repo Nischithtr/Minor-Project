@@ -1,0 +1,104 @@
+% Encoding: UTF-8
+
+@Book{Razavi2000,
+  author    = {Behzad Razavi},
+  title     = {Design of Analog CMOS Integrated Circuits},
+  year      = {2000},
+  publisher = {McGraw-Hill Education},
+  isbn      = {978-0072380323},
+}
+
+@Article{George2017,
+  author  = {David George and Tim Hatt},
+  journal = {GSMA Intelligence},
+  title   = {{G}lobal {M}obile {T}rends},
+  year    = {2017},
+  url     = {https://www.gsmaintelligence.com/research/?file=3df1b7d57b1e63a0cbc3d585feb82dc2&download},
+}
+
+@ARTICLE{Weinstein and Ebert,  
+author={S. {Weinstein} and P. {Ebert}},  
+journal={IEEE Transactions on Communication Technology},   title={Data Transmission by Frequency-Division Multiplexing Using the Discrete Fourier Transform},   year={1971},  volume={19},  number={5},  pages={628-634},  doi={10.1109/TCOM.1971.1090705}}
+  
+@ARTICLE{Wu and Zou,
+
+  author={ {Yiyan Wu} and W. Y. {Zou}},
+
+  journal={IEEE Transactions on Consumer Electronics}, 
+
+  title={Orthogonal frequency division multiplexing: a multi-carrier modulation scheme}, 
+
+  year={1995},
+
+  volume={41},
+
+  number={3},
+
+  pages={392-399},
+
+  doi={10.1109/30.468055}}
+  
+@article{Bellili,
+author = {Bellili, Faouzi and Methenni, Achref and Affes, Sofiène},
+year = {2015},
+month = {05},
+pages = {2513-2531},
+title = {Closed-Form CRLBs for CFO and Phase Estimation from Turbo-Coded Square-QAM-Modulated Transmissions},
+volume = {14},
+journal = {IEEE Transactions on Wireless Communications},
+doi = {10.1109/TWC.2014.2387855}
+}
+
+@ARTICLE{730453,
+
+  author={S. M. {Alamouti}},
+
+  journal={IEEE Journal on Selected Areas in Communications}, 
+
+  title={A simple transmit diversity technique for wireless communications}, 
+
+  year={1998},
+
+  volume={16},
+
+  number={8},
+
+  pages={1451-1458},
+
+  doi={10.1109/49.730453}}
+@ARTICLE{Hanlen and Fu,  author={L. {Hanlen} and M. {Fu}},  journal={IEEE Transactions on Wireless Communications},   title={Wireless communication systems with-spatial diversity: a volumetric model},   year={2006},  volume={5},  number={1},  pages={133-142},  doi={10.1109/TWC.2006.1576537}}
+
+@ARTICLE{Klema and Laub,  author={V. {Klema} and A. {Laub}},  journal={IEEE Transactions on Automatic Control},   title={The singular value decomposition: Its computation and some applications},   year={1980},  volume={25},  number={2},  pages={164-176},  doi={10.1109/TAC.1980.1102314}}
+
+@ARTICLE{Chow and Bingham,  author={P. S. {Chow} and J. M. {Cioffi} and J. A. C. {Bingham}},  journal={IEEE Transactions on Communications},   title={A practical discrete multitone transceiver loading algorithm for data transmission over spectrally shaped channels},   year={1995},  volume={43},  number={2/3/4},  pages={773-775},  doi={10.1109/26.380108}}
+
+@ARTICLE{Shannon,  author={C. E. {Shannon}},  journal={The Bell System Technical Journal},   title={A mathematical theory of communication},   year={1948},  volume={27},  number={3},  pages={379-423},  doi={10.1002/j.1538-7305.1948.tb01338.x}}
+
+@article{Peinado,
+title = "Generation of pseudorandom binary sequences by means of linear feedback shift registers (LFSRs) with dynamic feedback",
+journal = "Mathematical and Computer Modelling",
+volume = "57",
+number = "11",
+pages = "2596 - 2604",
+year = "2013",
+note = "Information System Security and Performance Modeling and Simulation for Future Mobile Networks",
+issn = "0895-7177",
+doi = "https://doi.org/10.1016/j.mcm.2011.07.023",
+url = "http://www.sciencedirect.com/science/article/pii/S0895717711004341",
+author = "A. Peinado and A. Fúster-Sabater",
+}
+
+@Manual{ITU2009,
+  title  = {Asymmetric digital subscriber line transceivers 2 (ADSL2)},
+  author = {ITU},
+  year   = {2009},
+}
+
+@Book{Ghosh2010,
+  author    = {Arunabha Ghosh and Jun Zhang and Jeffery G and Rias Muhammad},
+  publisher = {Prentice Hall},
+  title     = {Fundamentals of LTE},
+  year      = {2010},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

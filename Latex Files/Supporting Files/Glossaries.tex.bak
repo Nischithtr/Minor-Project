@@ -1,0 +1,118 @@
+\newglossaryentry{matlab}
+{
+    name=MATLAB,
+    description={A programming language developed by MathWorks that allows for simulations of various algorithms.}
+}
+\newglossaryentry{spatial diversity}
+{
+	name=spatial diversity,
+	description={The system of sending copies of the same data across multiple spatial paths so as to increase the reliability of receiving the data without errors.}
+}
+
+\newglossaryentry{spatial multiplexing}
+{
+	name=spatial multiplexing,
+	description={The system of sending blocks of different data bits across multiple spatial paths so as to increase the capacity of the system or the rate of data transfer.}
+}
+
+\newglossaryentry{pilot signal}
+{
+	name=pilot signal,
+	description={The signal known both to the transmitter and receiver that is transmitted initially before actual data transmission begins so that the receiver and transmitter can be aware of channel characteristics and also to establish clock synchronization}
+}
+
+\newglossaryentry{rayleigh fading}
+{
+	name=Rayleigh fading,
+	description={A statistical model that is used to measure the loss in power of the transmitted signal over the distance of separation between the transmitter and receiver.}
+}
+
+\newglossaryentry{cyclic prefix}
+{
+	name=cyclic prefix,
+	description={The redundant bits added to the beginning of an OFDM symbol so that the linear convolution of the symbol can be converted to circular convolution}
+}
+
+
+%numbers
+\newacronym{4g}{4G}{4th Generation Mobile Systems}
+\newacronym{5g}{5G}{5th Generation Mobile Systems}
+
+%A
+\newacronym{awgn}{AWGN}{Additive White Gaussian Noise}
+
+%B
+\newacronym{ber}{BER}{Bit Error Rate}
+\newacronym{bs}{BS}{Base Station}
+\newacronym{bc}{$B_c$}{Coherence Bandwidth}
+
+%C
+
+%D
+
+%E
+
+%F
+\newacronym{fft}{FFT}{Fast Fourier Transform}
+\newacronym{fdm}{FDM}{Frequency Division Multiplexing}
+
+%G
+\newacronym{gt}{$G_t$}{Transmit Antenna Gain}
+\newacronym{gr}{$G_r$}{Receive Antenna Gain}
+
+%H
+
+%I
+\newacronym{ifft}{IFFT}{Inverse Fast Fourier Transform}
+\newacronym{itu}{ITU}{International Telecommunication Union}
+\newacronym{isi}{ISI}{Inter Symbol Interference}
+
+%J
+
+%L
+\newacronym{los}{LOS}{Line Of Sight}
+\newacronym{lfsr}{LFSR}{Linear Feedback Shift Register}
+\newacronym{lti}{LTI}{Linear Time Invariant}
+
+%M
+\newacronym{mcm}{MCM}{Multi Carrier Modulation}
+\newacronym{mimo}{MIMO}{Multiple Input Multiple Output}
+\newacronym{miso}{MISO}{Multple Input Single Output}
+\newacronym{mli}{MLI}{Maximum Likelihood Estimator}
+
+%N
+
+%O
+\newacronym{ofdm}{OFDM}{Orthogonal Frequency Division Multiplexing}
+\newacronym{ostbc}{OSTBC}{Orthogonal Space Time Block Coding}
+
+%P
+\newacronym{prbs}{PRBS}{Pseudo Random Binary Sequence}
+\newacronym{papr}{PAPR}{Peak to Average Power Ratio}
+
+%Q
+\newacronym{qam}{QAM}{Quadrature Amplitude Modulation}
+
+%R
+\newacronym{rf}{RF}{Radio Frequency}
+
+%S
+\newacronym{svd}{SVD}{Singular Value Decomposition}
+\newacronym{snr}{SNR}{Signal to Noise Ratio}
+
+%T
+\newacronym{tg}{$T_g$}{Guard Time}
+\newacronym{td}{$T_d$}{Delay Spread}
+
+%U
+\newacronym{ue}{UE}{User Equipment}
+
+%V
+
+%W
+
+%X
+
+%Y
+
+%Z

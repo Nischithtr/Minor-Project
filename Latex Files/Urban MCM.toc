@@ -1,0 +1,99 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{i}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{iv}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{v}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbreviations}{vi}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Terms}{viii}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction to Wireless Communication Systems}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Motivation}{3}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Problem statement}{3}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Objectives}{3}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Literature Review}{3}{section.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.1}Multicarrier Systems}{3}{subsection.1.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.2}Modulation and Precoding Schemes}{4}{subsection.1.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Modulation Schemes}{4}{section*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Precoding Schemes}{4}{section*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.3}Channel Modeling}{4}{subsection.1.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.4}Transceiver Architecture and Channel Loading Methods}{5}{subsection.1.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Transceiver Architecture}{5}{section*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Channel Loading Methods}{5}{section*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}Brief Methodology of the project}{5}{section.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.7}Assumptions made / Constraints of the project}{6}{section.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.8}Organization of the report}{6}{section.1.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Theory and Fundamentals of MIMO and MCM}{8}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}The Need of MCM and MIMO}{9}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Fading and Diversity}{9}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Fading and Path Loss}{9}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Diversity}{9}{section*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Intersymbol Interference, Frequency Selective Fading and the need for MCM}{11}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Shortcomings of MCM and the need for OFDM}{13}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}OFDM}{15}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Concept of OFDM}{15}{subsection.2.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Advantages of OFDM}{15}{subsection.2.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}Disadvantages of OFDM}{17}{subsection.2.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}OFDM Transceiver System}{17}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Alamouti Coding Scheme}{17}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Design of Pipelined Analog to Digital converter}{21}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Contents of this Chapter}{22}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Paraphrasing}{22}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Quotations}{22}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Implementation of Pipelined Analog to Digital converter}{24}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Contents of this chapter}{25}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Results \& Discussions}{26}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Contents of this chapter}{27}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Tables in thesis}{27}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Math equation in thesis}{28}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusion and Future Scope}{30}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Conclusion}{31}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Future Scope}{31}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Learning Outcomes of the Project}{31}{section.6.3}%

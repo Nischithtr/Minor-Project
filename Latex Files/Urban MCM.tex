@@ -1,0 +1,142 @@
+\documentclass[12pt,oneside,a4paper]{book} % Document Style with 12 point spacing, onesided sheets of a4. This is a book type of document.
+
+\input{./Supporting Files/Packages} % Contains the supporting packages needed to compile the latex document
+
+\title{Development of MCM-MIMO Processing for Urban Cellular Link
+} %The title of the project
+\MinorProject %Tells Latex to use the Minor project style defined in ecproject.sty file
+
+%%%Student Details%%%
+\stuNameA{Nagendra Kumar Jamadagni}
+\stuUSNA{1RV17EC083}
+\stuNameB{Nischith T.R}
+\stuUSNB{1RV17EC093}
+
+%Guide Details%%%%
+\guideNameA{Dr. S Ravi Shankar}
+\guideDesignationA{Professor}
+\guideDeptA{Dept. of ECE}
+\guideOrgA{RV College of Engineering}
+
+%Panel Members Details%%%
+
+\panelMemberA{Dr. S Ravi Shankar}
+\panelMemberDesigA{Professor}
+\panelMemberB{Dr. Shushrutha K.S.}
+\panelMemberDesigB{Associate Professor}
+
+\Department[ECE]{Electronics and Communication Engineering}
+
+\HOD{Dr. K S Geetha}
+\Principal{Dr. K. N. Subramanya}
+
+\academicYear{2020-2021}
+\QRurl{} %Add QR Code URL to the brackets. Only if we are generating.
+
+\DraftCopy
+
+%Add glossaries from glossaries.tex file
+\newglossary[sym]{symbolList}{sym1}{sym2}{List of Symbols}
+\makeglossaries
+\loadglsentries{./Supporting Files/Glossaries}
+\renewcommand{\glspostdescription}{}% To remove dot at the end
+
+
+%To add references in IEEE style
+\usepackage[backend=biber, style=ieee]{biblatex}
+\addbibresource{./Supporting Files/References.bib}
+
+
+%To add RV Logo as a watermark
+\usepackage{eso-pic}
+\AddToShipoutPictureFG{
+          \begin{tikzpicture}[remember picture, overlay]
+              \node[opacity=0.5, inner sep=0, scale=0.5] at (current page.center)
+                  {\includegraphics{Common Figures/RV_logoVecw}};
+          \end{tikzpicture}
+}
+
+
+
+%%% Start of the report/document%%%
+
+\begin{document}
+\maketitle %Add the title page
+
+\newpage
+\begin{spacing}{1.5}
+\input{./Cover Pages/Certificate} %Add the certificates page
+
+\newpage
+\input{./Cover Pages/Declaration} %Add the declaration page
+
+\newpage
+\input{./Cover Pages/Acknowledgement} %Add the acknowledgement page
+
+\newpage
+\pagenumbering{roman} %Add page numbers in roman numeral format
+
+\chapter*{Abstract} %Add the abstract chapter
+\input{./Cover Pages/Abstract} %Add the abstract page
+
+\end{spacing}
+
+
+\newpage
+\pagestyle{fplain}
+\begin{spacing}{1.5}
+	\tableofcontents %Add table of contents	
+\end{spacing}
+
+\newpage
+\begin{spacing}{1.5}
+	\cleardoublepage
+	\addcontentsline{toc}{chapter}{\listfigurename} 
+	\listoffigures	%Add list of figures
+\end{spacing}
+
+
+\newpage
+\begin{spacing}{1.5}
+	\cleardoublepage
+	\addcontentsline{toc}{chapter}{\listtablename}
+	\listoftables	%Add list of tables
+\end{spacing}
+
+\newpage
+\printglossary[type=\acronymtype, title= Abbreviations, toctitle=Abbreviations]
+\newpage
+\printglossary[title= List of Terms, toctitle=List of Terms]
+
+
+\mainmatter
+\pagestyle{mplain}
+\glsresetall
+
+\begin{spacing}{1.5}
+
+%Chapter 1: Introduction
+\input{./Chapter 1/Chapter 1 - Introduction}
+
+%Chapter 2 Basic Principle
+\input{./Chapter 2/Chapter 2 - Fundamentals}
+
+%Chapter 3 Design Methodology
+\input{./Chapter3/chapter3-design}
+
+%Chapter 4 Implementation
+\input{./Chapter4/chapter4-implement}
+
+%Chapter 5 Result
+\input{./Chapter5/chapter5-result}
+
+%Chapter 6 Conclusion
+\input{./Chapter6/chapter6-conclution}
+
+\backmatter
+\clearpage
+\printbibliography
+
+\end{spacing}
+
+\end{document}
