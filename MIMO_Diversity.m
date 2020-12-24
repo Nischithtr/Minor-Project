@@ -18,10 +18,10 @@ symbols_sent_pilot2 = qam_mod(data_pilot , bits2persymbol,t_pilot,g_pilot);
 symbols_sent_pilot = [symbols_sent_pilot1 symbols_sent_pilot2];
 
 rayleigh_channel = sqrt(1/2) .* (randn(1,4) + 1i*randn(1,4));
-% h11 os first column
-% h12 os second column
-% h21 os third column
-% h22 os fourth column
+% h11 is first column
+% h12 is second column
+% h21 is third column
+% h22 is fourth column
 h = sqrt(Pr) ./ sqrt(Pt) * rayleigh_channel;
 h_abs = abs(h);
 [~, max_pos]=max(h_abs, [], 2);
@@ -60,12 +60,15 @@ bn=[b_channel.nbits_rounded]; % Get only the number of rounded bits in the chann
 t = [b_channel.channel_id];
 
 ii = 1;
+number_of_times = 0;
 while (ii <= n_bits)
     data_one_pass = data(ii : min(ii + sum(bn) - 1 , n_bits)) ;
     ii = ii + sum(bn);
     [QAM_symbols,b_n_updated] = qam_mod(data_one_pass,bn,t,g_array); % QAM symbols
     received_symbols = h_selected .* QAM_symbols + noise ;% QAM symbol + AWGN noise``
     bit_stream_rcvd = [bit_stream_rcvd qam_demod(received_symbols,b_n_updated',g_array,estimated_h)]; % Perform demod on the receiver end
+    number_of_times = number_of_times + 1;
 end
 
 err = sum(bit_stream_rcvd ~= data) ./ n_bits
+fprintf(" Time taken = %d t \n" , number_of_times);

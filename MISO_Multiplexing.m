@@ -60,4 +60,3 @@ while (ii <= nbits)
 end
 
 err = sum(bit_stream_rcvd ~= data) ./ nbits
-
