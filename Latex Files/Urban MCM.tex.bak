@@ -122,16 +122,13 @@
 \input{./Chapter 2/Chapter 2 - Fundamentals}
 
 %Chapter 3 Design Methodology
-\input{./Chapter3/chapter3-design}
+\input{./Chapter 3/Chapter 3 - Design}
 
-%Chapter 4 Implementation
-\input{./Chapter4/chapter4-implement}
+%Chapter 4 Result
+\input{./Chapter 4/Chapter 4 - Results and Inferences}
 
 %Chapter 5 Result
-\input{./Chapter5/chapter5-result}
-
-%Chapter 6 Conclusion
-\input{./Chapter6/chapter6-conclution}
+\input{./Chapter 5/chapter 5 - Conclusion and Future Scope}
 
 \backmatter
 \clearpage

@@ -17,27 +17,44 @@
 \BOOKMARK [1][-]{section.1.7}{Assumptions made / Constraints of the project}{chapter.1}% 17
 \BOOKMARK [1][-]{section.1.8}{Organization of the report}{chapter.1}% 18
 \BOOKMARK [0][-]{chapter.2}{Theory and Fundamentals of MIMO and MCM}{}% 19
-\BOOKMARK [1][-]{section.2.1}{The Need of MCM and MIMO}{chapter.2}% 20
-\BOOKMARK [2][-]{subsection.2.1.1}{Fading and Diversity}{section.2.1}% 21
-\BOOKMARK [1][-]{section.2.2}{Intersymbol Interference, Frequency Selective Fading and the need for MCM}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.3}{Shortcomings of MCM and the need for OFDM}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.4}{OFDM}{chapter.2}% 24
-\BOOKMARK [2][-]{subsection.2.4.1}{Concept of OFDM}{section.2.4}% 25
-\BOOKMARK [2][-]{subsection.2.4.2}{Advantages of OFDM}{section.2.4}% 26
-\BOOKMARK [2][-]{subsection.2.4.3}{Disadvantages of OFDM}{section.2.4}% 27
-\BOOKMARK [1][-]{section.2.5}{OFDM Transceiver System}{chapter.2}% 28
-\BOOKMARK [1][-]{section.2.6}{Alamouti Coding Scheme}{chapter.2}% 29
-\BOOKMARK [0][-]{chapter.3}{Design of Pipelined Analog to Digital converter}{}% 30
-\BOOKMARK [1][-]{section.3.1}{Contents of this Chapter}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.2}{Paraphrasing}{chapter.3}% 32
-\BOOKMARK [1][-]{section.3.3}{Quotations}{chapter.3}% 33
-\BOOKMARK [0][-]{chapter.4}{Implementation of Pipelined Analog to Digital converter}{}% 34
-\BOOKMARK [1][-]{section.4.1}{Contents of this chapter}{chapter.4}% 35
-\BOOKMARK [0][-]{chapter.5}{Results \046 Discussions}{}% 36
-\BOOKMARK [1][-]{section.5.1}{Contents of this chapter}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{Tables in thesis}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.3}{Math equation in thesis}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Scope}{}% 40
-\BOOKMARK [1][-]{section.6.1}{Conclusion}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.2}{Future Scope}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.3}{Learning Outcomes of the Project}{chapter.6}% 43
+\BOOKMARK [1][-]{section.2.1}{The Need for MIMO}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.2}{Diversity}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Intersymbol Interference, Frequency Selective Fading and the need for MCM}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.4}{Shortcomings of MCM and the need for OFDM}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.5}{OFDM}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.5.1}{Concept of OFDM}{section.2.5}% 25
+\BOOKMARK [2][-]{subsection.2.5.2}{Advantages of OFDM}{section.2.5}% 26
+\BOOKMARK [2][-]{subsection.2.5.3}{Disadvantages of OFDM}{section.2.5}% 27
+\BOOKMARK [1][-]{section.2.6}{OFDM Transceiver System}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.7}{Alamouti Coding Scheme}{chapter.2}% 29
+\BOOKMARK [1][-]{section.2.8}{Inverse Channel Estimation}{chapter.2}% 30
+\BOOKMARK [1][-]{section.2.9}{Singular Value Decomposition}{chapter.2}% 31
+\BOOKMARK [0][-]{chapter.3}{Chapter 3 - Design of MCM and MIMO Processing Systems for Urban Communication}{}% 32
+\BOOKMARK [1][-]{section.3.1}{Basic Overview of our system}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.2}{Transmitter}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.2.1}{PRBS Generator}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.2}{Tone Loading Algorithm for the transmitter}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.3}{QAM Modulator}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.4}{Alamouti Coder}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.5}{Inverse Channel Estimator and Coder}{section.3.2}% 39
+\BOOKMARK [2][-]{subsection.3.2.6}{Singular Value Decomposition Coder}{section.3.2}% 40
+\BOOKMARK [1][-]{section.3.3}{Channel Parameters}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.1}{AWGN Noise}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.2}{Rayleigh Fading}{section.3.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.3}{Path Loss Function}{section.3.3}% 44
+\BOOKMARK [1][-]{section.3.4}{Receiver}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.4.1}{Alamouti Decoder}{section.3.4}% 46
+\BOOKMARK [2][-]{subsection.3.4.2}{QAM Demodulator}{section.3.4}% 47
+\BOOKMARK [1][-]{section.3.5}{Different Systems}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.5.1}{SISO System}{section.3.5}% 49
+\BOOKMARK [2][-]{subsection.3.5.2}{MISO System}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.3}{SIMO System}{section.3.5}% 51
+\BOOKMARK [2][-]{subsection.3.5.4}{MIMO System}{section.3.5}% 52
+\BOOKMARK [0][-]{chapter.4}{Results and Inferences}{}% 53
+\BOOKMARK [1][-]{section.4.1}{SISO System Results}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.2}{SIMO System Results}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.3}{MISO System Results}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.4}{MIMO System Results}{chapter.4}% 57
+\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Scope}{}% 58
+\BOOKMARK [1][-]{section.5.1}{Concluding Remarks}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.2}{Future Scope}{chapter.5}% 60

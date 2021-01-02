@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  19 DEC 2020 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  2 JAN 2021 15:01
 entering extended mode
 **"./Chapter 1 - Introduction.tex"
 ("Chapter 1 - Introduction.tex"
@@ -408,6 +408,10 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -879,7 +883,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.5 ...h 5.8 billion between 2018-2025. \parencite
+l.5 ...ch 5.8 billion between 2018-2025. \textcite
                                                   {George2017}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2730,14 +2734,13 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 l.33 \section
-             [Literature Review]{\textbf{Literature Review}}
+             {Literature Review}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -2754,40 +2757,9 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no w in font nullfont!
-Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
 []
- []
-
-
-Overfull \hbox (18.41656pt too wide) in paragraph at lines 33--34
-\OT1/cmr/bx/n/10 Lit-
- []
-
-
-Overfull \hbox (13.84023pt too wide) in paragraph at lines 33--34
-\OT1/cmr/bx/n/10 er-
- []
-
-
-Overfull \hbox (9.42354pt too wide) in paragraph at lines 33--34
-\OT1/cmr/bx/n/10 a-
- []
-
-
-Overfull \hbox (20.86797pt too wide) in paragraph at lines 33--34
-\OT1/cmr/bx/n/10 ture
- []
-
-
-Overfull \hbox (17.72908pt too wide) in paragraph at lines 33--34
-\OT1/cmr/bx/n/10 Re-
- []
-
-
-Overfull \hbox (22.9999pt too wide) in paragraph at lines 33--34
-\OT1/cmr/bx/n/10 view 
  []
 
 ! Undefined control sequence.
@@ -2959,7 +2931,7 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.36 ...tems. We build upon the work of \parencite
+l.36 ...stems. We build upon the work of \textcite
                                                   {Weinstein and Ebert} wher...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3219,7 +3191,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
 l.36 ...ith multiplexing capabilities of \acrshort
-                                                  {ofdm} as discussed by \pa...
+                                                  {ofdm} as discussed by \te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3244,7 +3216,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.36 ...\acrshort{ofdm} as discussed by \parencite
+l.36 ... \acrshort{ofdm} as discussed by \textcite
                                                   {Wu and Zou} form the foun...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3354,14 +3326,13 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 38--39
 
 ! Undefined control sequence.
 l.40 \subsubsection
-                   [Modulation Schemes]{\textbf{Modulation Schemes}}
+                   {Modulation Schemes}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -3379,7 +3350,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -3579,7 +3549,7 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.41 ...ations we follow in the work of \parencite
+l.41 ...lations we follow in the work of \textcite
                                                   {Bellili} to use a recursi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3867,41 +3837,15 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 40--42
 []
  []
 
-
-Overfull \hbox (27.20819pt too wide) in paragraph at lines 40--42
-\OT1/cmr/bx/n/10 Mod-
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 40--42
-\OT1/cmr/bx/n/10 u-
- []
-
-
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 40--42
-\OT1/cmr/bx/n/10 la-
- []
-
-
-Overfull \hbox (19.80545pt too wide) in paragraph at lines 40--42
-\OT1/cmr/bx/n/10 tion
- []
-
-
-Overfull \hbox (42.23033pt too wide) in paragraph at lines 40--42
-\OT1/cmr/bx/n/10 Schemes
- []
-
 ! Undefined control sequence.
 l.43 \subsubsection
-                   [Precoding Schemes]{\textbf{Precoding Schemes}}
+                   {Precoding Schemes}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3918,7 +3862,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -4054,7 +3997,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.44 ...coding measures as suggested by \parencite
+l.44 ...ecoding measures as suggested by \textcite
                                                   {Alamouti} so that we can ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4143,26 +4086,6 @@ Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 43--45
 []
- []
-
-
-Overfull \hbox (21.7013pt too wide) in paragraph at lines 43--45
-\OT1/cmr/bx/n/10 Pre-
- []
-
-
-Overfull \hbox (21.40266pt too wide) in paragraph at lines 43--45
-\OT1/cmr/bx/n/10 cod-
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 43--45
-\OT1/cmr/bx/n/10 ing
- []
-
-
-Overfull \hbox (42.23033pt too wide) in paragraph at lines 43--45
-\OT1/cmr/bx/n/10 Schemes
  []
 
 
@@ -4388,7 +4311,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.47 ... systems as previously shown by \parencite
+l.47 ...h systems as previously shown by \textcite
                                                   {Hanlen and Fu} where we p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5160,14 +5083,13 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 l.52 \subsubsection
-                   [Transceiver Architecture]{\textbf{Transceiver Architectu...
+                   {Transceiver Architecture}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -5191,7 +5113,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -5311,7 +5232,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.53 ...as per their technical document \parencite
+l.53 ... as per their technical document \textcite
                                                   {ITU2009}. We build upon t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5342,7 +5263,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.53 ...parencite{ITU2009}. We build upon the \gls
+l.53 ...\textcite{ITU2009}. We build upon the \gls
                                                   {pilot signal} generation ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5519,7 +5440,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.53 ...tor by observing the results of \parencite
+l.53 ...ator by observing the results of \textcite
                                                   {Peinado}. We also follow ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5555,7 +5476,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.53 ...inado}. We also follow the same \parencite
+l.53 ...einado}. We also follow the same \textcite
                                                   {ITU} standard in designin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5747,7 +5668,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.53 ...ong{svd} method as described by \parencite
+l.53 ...long{svd} method as described by \textcite
                                                   {Klema and Laub}. It is ou...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5891,31 +5812,6 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 51--54
  []
 
 
-Overfull \hbox (57.62608pt too wide) in paragraph at lines 51--54
-\OT1/cmr/bx/n/10 Transceiver
- []
-
-
-Overfull \hbox (17.26381pt too wide) in paragraph at lines 51--54
-\OT1/cmr/bx/n/10 Ar-
- []
-
-
-Overfull \hbox (18.20824pt too wide) in paragraph at lines 51--54
-\OT1/cmr/bx/n/10 chi-
- []
-
-
-Overfull \hbox (18.68741pt too wide) in paragraph at lines 51--54
-\OT1/cmr/bx/n/10 tec-
- []
-
-
-Overfull \hbox (20.86797pt too wide) in paragraph at lines 51--54
-\OT1/cmr/bx/n/10 ture
- []
-
-
 Overfull \hbox (18.56946pt too wide) in paragraph at lines 51--54
 \OML/cmm/m/it/10 M \OMS/cmsy/m/n/10 
  []
@@ -5927,14 +5823,13 @@ Overfull \hbox (9.12497pt too wide) in paragraph at lines 51--54
 
 ! Undefined control sequence.
 l.55 \subsubsection
-                   [Channel Loading Methods]{\textbf{Channel Loading Methods}}
+                   {Channel Loading Methods}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -5956,7 +5851,6 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -6147,7 +6041,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.56 ...und that the method followed by \parencite
+l.56 ...ound that the method followed by \textcite
                                                   {Chow and Bingham} to be e...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6400,7 +6294,7 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.56 ...y builds on the seminal work of \parencite
+l.56 ...ly builds on the seminal work of \textcite
                                                   {Shannon} and satisfies ou...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6479,46 +6373,15 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 55--57
 []
  []
 
-
-Overfull \hbox (30.50676pt too wide) in paragraph at lines 55--57
-\OT1/cmr/bx/n/10 Chan-
- []
-
-
-Overfull \hbox (14.8541pt too wide) in paragraph at lines 55--57
-\OT1/cmr/bx/n/10 nel
- []
-
-
-Overfull \hbox (28.47899pt too wide) in paragraph at lines 55--57
-\OT1/cmr/bx/n/10 Load-
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 55--57
-\OT1/cmr/bx/n/10 ing
- []
-
-
-Overfull \hbox (30.88179pt too wide) in paragraph at lines 55--57
-\OT1/cmr/bx/n/10 Meth-
- []
-
-
-Overfull \hbox (16.99434pt too wide) in paragraph at lines 55--57
-\OT1/cmr/bx/n/10 ods
- []
-
 ! Undefined control sequence.
 l.59 \section
-             [Brief Methodology of the project]{\textbf{Brief Methodology of...
+             {Brief Methodology of the project}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -6547,7 +6410,6 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -7372,51 +7234,15 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 59--63
 []
  []
 
-
-Overfull \hbox (24.89572pt too wide) in paragraph at lines 59--63
-\OT1/cmr/bx/n/10 Brief
- []
-
-
-Overfull \hbox (43.34006pt too wide) in paragraph at lines 59--63
-\OT1/cmr/bx/n/10 Method-
- []
-
-
-Overfull \hbox (12.77771pt too wide) in paragraph at lines 59--63
-\OT1/cmr/bx/n/10 ol-
- []
-
-
-Overfull \hbox (17.56935pt too wide) in paragraph at lines 59--63
-\OT1/cmr/bx/n/10 ogy
- []
-
-
-Overfull \hbox (9.26384pt too wide) in paragraph at lines 59--63
-\OT1/cmr/bx/n/10 of
- []
-
-
-Overfull \hbox (16.13187pt too wide) in paragraph at lines 59--63
-\OT1/cmr/bx/n/10 the
- []
-
-
-Overfull \hbox (35.88177pt too wide) in paragraph at lines 59--63
-\OT1/cmr/bx/n/10 project
- []
-
 ! Undefined control sequence.
 l.64 \section
-             [Assumptions made / Constraints of the project]{\textbf{Assumpt...
+             {Assumptions made / Constraints of the project}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -7456,7 +7282,6 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -7515,56 +7340,6 @@ Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 64--66
 []
- []
-
-
-Overfull \hbox (17.06378pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 As-
- []
-
-
-Overfull \hbox (30.73038pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 sump-
- []
-
-
-Overfull \hbox (24.34152pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 tions
- []
-
-
-Overfull \hbox (26.83318pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 made
- []
-
-
-Overfull \hbox (5.74997pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 /
- []
-
-
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 Con-
- []
-
-
-Overfull \hbox (37.6067pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 straints
- []
-
-
-Overfull \hbox (9.26384pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 of
- []
-
-
-Overfull \hbox (16.13187pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 the
- []
-
-
-Overfull \hbox (35.88177pt too wide) in paragraph at lines 64--66
-\OT1/cmr/bx/n/10 project
  []
 
 Missing character: There is no W in font nullfont!
@@ -8157,14 +7932,13 @@ Overfull \hbox (14.48616pt too wide) in paragraph at lines 73--74
 
 ! Undefined control sequence.
 l.76 \section
-             [Organization of the report]{\textbf{Organization of the report}}
+             {Organization of the report}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no g in font nullfont!
@@ -8188,55 +7962,9 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 76--77
 []
- []
-
-
-Overfull \hbox (17.20825pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 Or-
- []
-
-
-Overfull \hbox (15.17351pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 ga-
- []
-
-
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 ni-
- []
-
-
-Overfull \hbox (14.53462pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 za-
- []
-
-
-Overfull \hbox (19.80545pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 tion
- []
-
-
-Overfull \hbox (9.26384pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 of
- []
-
-
-Overfull \hbox (16.13187pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 the
- []
-
-
-Overfull \hbox (13.84023pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 re-
- []
-
-
-Overfull \hbox (21.66656pt too wide) in paragraph at lines 76--77
-\OT1/cmr/bx/n/10 port 
  []
 
 Missing character: There is no T in font nullfont!
@@ -9026,10 +8754,10 @@ Missing character: There is no . in font nullfont!
  
 Here is how much of TeX's memory you used:
  28 strings out of 479697
- 724 string characters out of 2875088
- 271170 words of memory out of 3000000
+ 710 string characters out of 2875088
+ 270170 words of memory out of 3000000
  17221 multiletter control sequences out of 15000+200000
  403738 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,2n,15p,876b,108s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,2n,15p,872b,108s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

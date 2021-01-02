@@ -2,13 +2,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Abstract}{i}{chapter*.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{iv}{chapter*.2}%
+\contentsline {chapter}{List of Figures}{v}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{v}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{vi}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbreviations}{vi}{section*.5}%
+\contentsline {chapter}{Abbreviations}{vii}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Terms}{viii}{section*.7}%
+\contentsline {chapter}{List of Terms}{ix}{section*.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction to Wireless Communication Systems}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -46,54 +46,84 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Theory and Fundamentals of MIMO and MCM}{8}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The Need of MCM and MIMO}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.1}The Need for MIMO}{9}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Fading and Diversity}{9}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Diversity}{10}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Fading and Path Loss}{9}{section*.13}%
+\contentsline {section}{\numberline {2.3}Intersymbol Interference, Frequency Selective Fading and the need for MCM}{11}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Diversity}{9}{section*.14}%
+\contentsline {section}{\numberline {2.4}Shortcomings of MCM and the need for OFDM}{15}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Intersymbol Interference, Frequency Selective Fading and the need for MCM}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.5}OFDM}{15}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Shortcomings of MCM and the need for OFDM}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.5.1}Concept of OFDM}{15}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}OFDM}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.5.2}Advantages of OFDM}{16}{subsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Concept of OFDM}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5.3}Disadvantages of OFDM}{17}{subsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Advantages of OFDM}{15}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.6}OFDM Transceiver System}{17}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Disadvantages of OFDM}{17}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.7}Alamouti Coding Scheme}{18}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}OFDM Transceiver System}{17}{section.2.5}%
+\contentsline {section}{\numberline {2.8}Inverse Channel Estimation}{19}{section.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Alamouti Coding Scheme}{17}{section.2.6}%
+\contentsline {section}{\numberline {2.9}Singular Value Decomposition}{19}{section.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Design of Pipelined Analog to Digital converter}{21}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Chapter 3 - Design of MCM and MIMO Processing Systems for Urban Communication}{21}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Contents of this Chapter}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Basic Overview of our system}{22}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Paraphrasing}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Transmitter}{22}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Quotations}{22}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.1}PRBS Generator}{22}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Implementation of Pipelined Analog to Digital converter}{24}{chapter.4}%
+\contentsline {subsection}{\numberline {3.2.2}Tone Loading Algorithm for the transmitter}{22}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Contents of this chapter}{25}{section.4.1}%
+\contentsline {subsection}{\numberline {3.2.3}QAM Modulator}{22}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Results \& Discussions}{26}{chapter.5}%
+\contentsline {subsection}{\numberline {3.2.4}Alamouti Coder}{22}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Contents of this chapter}{27}{section.5.1}%
+\contentsline {subsection}{\numberline {3.2.5}Inverse Channel Estimator and Coder}{22}{subsection.3.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Tables in thesis}{27}{section.5.2}%
+\contentsline {subsection}{\numberline {3.2.6}Singular Value Decomposition Coder}{23}{subsection.3.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Math equation in thesis}{28}{section.5.3}%
+\contentsline {section}{\numberline {3.3}Channel Parameters}{23}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusion and Future Scope}{30}{chapter.6}%
+\contentsline {subsection}{\numberline {3.3.1}AWGN Noise}{23}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Conclusion}{31}{section.6.1}%
+\contentsline {subsection}{\numberline {3.3.2}Rayleigh Fading}{23}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Future Scope}{31}{section.6.2}%
+\contentsline {subsection}{\numberline {3.3.3}Path Loss Function}{23}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Learning Outcomes of the Project}{31}{section.6.3}%
+\contentsline {section}{\numberline {3.4}Receiver}{23}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Alamouti Decoder}{23}{subsection.3.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}QAM Demodulator}{23}{subsection.3.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Different Systems}{23}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}SISO System}{23}{subsection.3.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}MISO System}{23}{subsection.3.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.3}SIMO System}{23}{subsection.3.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.4}MIMO System}{23}{subsection.3.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Results and Inferences}{24}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}SISO System Results}{25}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}SIMO System Results}{25}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}MISO System Results}{25}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}MIMO System Results}{25}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{26}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Concluding Remarks}{27}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Future Scope}{27}{section.5.2}%

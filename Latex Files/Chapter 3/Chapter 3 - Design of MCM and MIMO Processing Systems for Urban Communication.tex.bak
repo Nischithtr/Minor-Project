@@ -1,0 +1,34 @@
+\chapter{Chapter 3 - Design of MCM and MIMO Processing Systems for Urban Communication}
+
+Every chapter should start with an introduction paragraph. This paragraph should brief about the flow of the chapter. This introduction can be limited within 4 to 5 sentences. The chapter heading should be appropriately modified (a sample heading is shown for this chapter).
+ 
+\section{Basic Overview of our system}
+This section contains the following. It has a basic block diagram view of our system. Like precoder, modulator, transmitter, channel, receiver, demodulator and estimator. We explain each section in detail in the following sections.
+
+
+\section{Transmitter}
+
+\subsection{QAM Modulator}
+Here we explain the construction of the QAM modulator in detail and explain the recursive algorithm which we have used for the same.
+
+\subsection{Alamouti Coder}
+Here we explain the code relating to the Alamouti coder. We have already discussed the theory behind Alamouti codes, here we just explain our code which implements it.
+
+\subsection{Tone Loading Algorithm for the tr
+
+\section{Channel Estimation}
+\subsection{PRBS Generator}
+Here we explain the PRBS generator and the logic of our PRBS Code.
+
+\subsection{AWGN Noise}
+A small section explaining the AWGN noise that we are adding to our transmitted bit stream.
+
+\subsection{Rayleigh Fading}
+A small section discussing the implementation of Rayleigh Fading in our channel.
+
+\subsection{Path Loss Function}
+A section describing the path loss function we are using and the various components of the formula.
+
+\vspace{0.75cm}
+
+After elaborating the various sections of the chapter, a summary paragraph should be written discussing the highlights of that particular chapter. This summary paragraph should not be numbered separately.  
