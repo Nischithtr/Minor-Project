@@ -1,5 +1,11 @@
 % makeindex style file created by the glossaries package
+<<<<<<< HEAD
 % for document '"Urban MCM"' on 2021-1-3
+||||||| merged common ancestors
+% for document '"Urban MCM"' on 2021-1-2
+=======
+% for document '"Urban MCM"' on 2021-1-4
+>>>>>>> refs/remotes/origin/master
 actual '?'
 encap '|'
 level '!'
