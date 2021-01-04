@@ -1,0 +1,428 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{George2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=945df142a62dee836592b86f55b9fe3c}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5225df19e30fb2765bf4d8bc0658e0d9}{%
+           family={Hatt},
+           familyi={H\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae06cded3bfa5a9216d34ee0ba07d66c}
+      \strng{fullhash}{ae06cded3bfa5a9216d34ee0ba07d66c}
+      \strng{bibnamehash}{ae06cded3bfa5a9216d34ee0ba07d66c}
+      \strng{authorbibnamehash}{ae06cded3bfa5a9216d34ee0ba07d66c}
+      \strng{authornamehash}{ae06cded3bfa5a9216d34ee0ba07d66c}
+      \strng{authorfullhash}{ae06cded3bfa5a9216d34ee0ba07d66c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GSMA Intelligence}
+      \field{title}{{G}lobal {M}obile {T}rends}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.gsmaintelligence.com/research/?file=3df1b7d57b1e63a0cbc3d585feb82dc2&download
+      \endverb
+      \verb{url}
+      \verb https://www.gsmaintelligence.com/research/?file=3df1b7d57b1e63a0cbc3d585feb82dc2&download
+      \endverb
+    \endentry
+    \entry{Weinstein1971}{article}{}
+      \name{author}{2}{}{%
+        {{hash=de4519086d85a1522d198f9e4d507ab6}{%
+           family={{Weinstein}},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f0613c100bb936d19f56c336155ebf2b}{%
+           family={{Ebert}},
+           familyi={E\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e1d41a7bdbb025562c74f6617c4d6d6}
+      \strng{fullhash}{4e1d41a7bdbb025562c74f6617c4d6d6}
+      \strng{bibnamehash}{4e1d41a7bdbb025562c74f6617c4d6d6}
+      \strng{authorbibnamehash}{4e1d41a7bdbb025562c74f6617c4d6d6}
+      \strng{authornamehash}{4e1d41a7bdbb025562c74f6617c4d6d6}
+      \strng{authorfullhash}{4e1d41a7bdbb025562c74f6617c4d6d6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Communication Technology}
+      \field{number}{5}
+      \field{title}{Data Transmission by Frequency-Division Multiplexing Using the Discrete Fourier Transform}
+      \field{volume}{19}
+      \field{year}{1971}
+      \field{pages}{628\bibrangedash 634}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TCOM.1971.1090705
+      \endverb
+    \endentry
+    \entry{Wu1995}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f928575159a74f6b3b8d172197a6c7ff}{%
+           family={{Yiyan Wu}},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=aa7cd9bec59e55ae5c568741172444d9}{%
+           family={{Zou}},
+           familyi={Z\bibinitperiod},
+           given={W.\bibnamedelimi Y.},
+           giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{674562910cb25215d5ed36034d63f827}
+      \strng{fullhash}{674562910cb25215d5ed36034d63f827}
+      \strng{bibnamehash}{674562910cb25215d5ed36034d63f827}
+      \strng{authorbibnamehash}{674562910cb25215d5ed36034d63f827}
+      \strng{authornamehash}{674562910cb25215d5ed36034d63f827}
+      \strng{authorfullhash}{674562910cb25215d5ed36034d63f827}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Consumer Electronics}
+      \field{number}{3}
+      \field{title}{Orthogonal frequency division multiplexing: a multi-carrier modulation scheme}
+      \field{volume}{41}
+      \field{year}{1995}
+      \field{pages}{392\bibrangedash 399}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/30.468055
+      \endverb
+    \endentry
+    \entry{Bellili2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=875861001f2e40fe31c26aa76998fe87}{%
+           family={Bellili},
+           familyi={B\bibinitperiod},
+           given={Faouzi},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1c0b91792e9d7431de15c1b283b590b2}{%
+           family={Methenni},
+           familyi={M\bibinitperiod},
+           given={Achref},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5ff17be7aabd14fa97ad58183db10c1c}{%
+           family={Affes},
+           familyi={A\bibinitperiod},
+           given={Sofiène},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef288b68f67c8c52889d74797d663053}
+      \strng{fullhash}{ef288b68f67c8c52889d74797d663053}
+      \strng{bibnamehash}{ef288b68f67c8c52889d74797d663053}
+      \strng{authorbibnamehash}{ef288b68f67c8c52889d74797d663053}
+      \strng{authornamehash}{ef288b68f67c8c52889d74797d663053}
+      \strng{authorfullhash}{ef288b68f67c8c52889d74797d663053}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Wireless Communications}
+      \field{month}{05}
+      \field{title}{Closed-Form CRLBs for CFO and Phase Estimation from Turbo-Coded Square-QAM-Modulated Transmissions}
+      \field{volume}{14}
+      \field{year}{2015}
+      \field{pages}{2513\bibrangedash 2531}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1109/TWC.2014.2387855
+      \endverb
+    \endentry
+    \entry{Alamouti1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=35fb4b3056e4be472ac9d6a0163f0879}{%
+           family={{Alamouti}},
+           familyi={A\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{35fb4b3056e4be472ac9d6a0163f0879}
+      \strng{fullhash}{35fb4b3056e4be472ac9d6a0163f0879}
+      \strng{bibnamehash}{35fb4b3056e4be472ac9d6a0163f0879}
+      \strng{authorbibnamehash}{35fb4b3056e4be472ac9d6a0163f0879}
+      \strng{authornamehash}{35fb4b3056e4be472ac9d6a0163f0879}
+      \strng{authorfullhash}{35fb4b3056e4be472ac9d6a0163f0879}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal on Selected Areas in Communications}
+      \field{number}{8}
+      \field{title}{A simple transmit diversity technique for wireless communications}
+      \field{volume}{16}
+      \field{year}{1998}
+      \field{pages}{1451\bibrangedash 1458}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/49.730453
+      \endverb
+    \endentry
+    \entry{Hanlen2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4e12201d942514c5c8e593d872ba98d1}{%
+           family={{Hanlen}},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f237775324408429037492587034b61c}{%
+           family={{Fu}},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0cabb4c25031420e02a9c63d8937e48}
+      \strng{fullhash}{a0cabb4c25031420e02a9c63d8937e48}
+      \strng{bibnamehash}{a0cabb4c25031420e02a9c63d8937e48}
+      \strng{authorbibnamehash}{a0cabb4c25031420e02a9c63d8937e48}
+      \strng{authornamehash}{a0cabb4c25031420e02a9c63d8937e48}
+      \strng{authorfullhash}{a0cabb4c25031420e02a9c63d8937e48}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Wireless Communications}
+      \field{number}{1}
+      \field{title}{Wireless communication systems with-spatial diversity: a volumetric model}
+      \field{volume}{5}
+      \field{year}{2006}
+      \field{pages}{133\bibrangedash 142}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TWC.2006.1576537
+      \endverb
+    \endentry
+    \entry{ITU2009}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=271c375766c6387ce244b8534e37c1e3}{%
+           family={ITU},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{271c375766c6387ce244b8534e37c1e3}
+      \strng{fullhash}{271c375766c6387ce244b8534e37c1e3}
+      \strng{bibnamehash}{271c375766c6387ce244b8534e37c1e3}
+      \strng{authorbibnamehash}{271c375766c6387ce244b8534e37c1e3}
+      \strng{authornamehash}{271c375766c6387ce244b8534e37c1e3}
+      \strng{authorfullhash}{271c375766c6387ce244b8534e37c1e3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Asymmetric digital subscriber line transceivers 2 (ADSL2)}
+      \field{year}{2009}
+    \endentry
+    \entry{Peinado2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c171e13bebe2595a714c0ac1e7063f42}{%
+           family={Peinado},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=26ec7ba79a2b9a9a0847549710fbed27}{%
+           family={Fúster-Sabater},
+           familyi={F\bibinithyphendelim S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d8052fa9dd4ac11de5147919b52bbff}
+      \strng{fullhash}{3d8052fa9dd4ac11de5147919b52bbff}
+      \strng{bibnamehash}{3d8052fa9dd4ac11de5147919b52bbff}
+      \strng{authorbibnamehash}{3d8052fa9dd4ac11de5147919b52bbff}
+      \strng{authornamehash}{3d8052fa9dd4ac11de5147919b52bbff}
+      \strng{authorfullhash}{3d8052fa9dd4ac11de5147919b52bbff}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0895-7177}
+      \field{journaltitle}{Mathematical and Computer Modelling}
+      \field{note}{Information System Security and Performance Modeling and Simulation for Future Mobile Networks}
+      \field{number}{11}
+      \field{title}{Generation of pseudorandom binary sequences by means of linear feedback shift registers (LFSRs) with dynamic feedback}
+      \field{volume}{57}
+      \field{year}{2013}
+      \field{pages}{2596\bibrangedash 2604}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.mcm.2011.07.023
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0895717711004341
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0895717711004341
+      \endverb
+    \endentry
+    \entry{Klema1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a02ec6be9997748cca0711116bdb2dc1}{%
+           family={{Klema}},
+           familyi={K\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2c65ade50771626efd127c5cea304113}{%
+           family={{Laub}},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{fullhash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{bibnamehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{authorbibnamehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{authornamehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{authorfullhash}{bb97be46f2a669114ab7f2ae91901736}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{number}{2}
+      \field{title}{The singular value decomposition: Its computation and some applications}
+      \field{volume}{25}
+      \field{year}{1980}
+      \field{pages}{164\bibrangedash 176}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TAC.1980.1102314
+      \endverb
+    \endentry
+    \entry{Chow1995}{article}{}
+      \name{author}{3}{}{%
+        {{hash=012e6b31f12e70ac317d39059af44feb}{%
+           family={{Chow}},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=710dd4b577032000ef75819804176877}{%
+           family={{Cioffi}},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6d7b817eee7fd4e90a1bab72733d2571}{%
+           family={{Bingham}},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi A.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{be055c0819974e45ee0c2163890ae508}
+      \strng{fullhash}{be055c0819974e45ee0c2163890ae508}
+      \strng{bibnamehash}{be055c0819974e45ee0c2163890ae508}
+      \strng{authorbibnamehash}{be055c0819974e45ee0c2163890ae508}
+      \strng{authornamehash}{be055c0819974e45ee0c2163890ae508}
+      \strng{authorfullhash}{be055c0819974e45ee0c2163890ae508}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Communications}
+      \field{number}{2/3/4}
+      \field{title}{A practical discrete multitone transceiver loading algorithm for data transmission over spectrally shaped channels}
+      \field{volume}{43}
+      \field{year}{1995}
+      \field{pages}{773\bibrangedash 775}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/26.380108
+      \endverb
+    \endentry
+    \entry{Shannon1948}{article}{}
+      \name{author}{1}{}{%
+        {{hash=22e2130b8d96f93daba648ff62af869b}{%
+           family={{Shannon}},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{fullhash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{bibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorbibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authornamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorfullhash}{22e2130b8d96f93daba648ff62af869b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Bell System Technical Journal}
+      \field{number}{3}
+      \field{title}{A mathematical theory of communication}
+      \field{volume}{27}
+      \field{year}{1948}
+      \field{pages}{379\bibrangedash 423}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1002/j.1538-7305.1948.tb01338.x
+      \endverb
+    \endentry
+    \entry{Ghosh2010}{book}{}
+      \name{author}{4}{}{%
+        {{hash=b5da9f905e51e7f3663ab6b83df49765}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Arunabha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f3b58538bf386791c9447046787b9c3e}{%
+           family={G},
+           familyi={G\bibinitperiod},
+           given={Jeffery},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5c906fc248dbbd90bb41e44cc03a44bd}{%
+           family={Muhammad},
+           familyi={M\bibinitperiod},
+           given={Rias},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{01d7c1c5e48818f17d2a6367020fc4f1}
+      \strng{fullhash}{79bacb1763b7a2924e83dc06dadae33b}
+      \strng{bibnamehash}{79bacb1763b7a2924e83dc06dadae33b}
+      \strng{authorbibnamehash}{79bacb1763b7a2924e83dc06dadae33b}
+      \strng{authornamehash}{01d7c1c5e48818f17d2a6367020fc4f1}
+      \strng{authorfullhash}{79bacb1763b7a2924e83dc06dadae33b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of LTE}
+      \field{year}{2010}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
