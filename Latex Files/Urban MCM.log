@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  5 JAN 2021 01:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  5 JAN 2021 16:04
 entering extended mode
 **"./Urban MCM.tex"
 ("Urban MCM.tex"
@@ -1289,7 +1289,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
@@ -1397,7 +1402,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 
 
 ]
-<Chapter 1/Figures/Wireless Communication System Block Diagram.jpg, id=463, 552
+<Chapter 1/Figures/Wireless Communication System Block Diagram.jpg, id=488, 552
 .8655pt x 183.68625pt>
 File: Chapter 1/Figures/Wireless Communication System Block Diagram.jpg Graphic
  file (type jpg)
@@ -1470,7 +1475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<Chapter 2/Figures/Path Loss.jpg, id=596, 411.33675pt x 254.1495pt>
+<Chapter 2/Figures/Path Loss.jpg, id=620, 411.33675pt x 254.1495pt>
 File: Chapter 2/Figures/Path Loss.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Path Loss.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Path Loss.jpg  used on input line 13
@@ -1482,14 +1487,14 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 21.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
 [9]
-<Chapter 2/Figures/Multipath Propagation.jpg, id=604, 395.67825pt x 177.66376pt
+<Chapter 2/Figures/Multipath Propagation.jpg, id=628, 395.67825pt x 177.66376pt
 >
 File: Chapter 2/Figures/Multipath Propagation.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Multipath Propagation.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Multipath Propagation.jpg  used on i
 nput line 29.
 (pdftex.def)             Requested size: 395.67728pt x 177.66331pt.
-<Chapter 2/Figures/Interference.jpg, id=613, 408.3255pt x 320.397pt>
+<Chapter 2/Figures/Interference.jpg, id=637, 408.3255pt x 320.397pt>
 File: Chapter 2/Figures/Interference.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Interference.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Interference.jpg  used on input line
@@ -1501,7 +1506,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 41.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [10 <./Chapter 2/Figures/Path Loss.jpg>]
-<Chapter 2/Figures/Spatial Diversity.png, id=621, 831.105pt x 245.91875pt>
+<Chapter 2/Figures/Spatial Diversity.png, id=645, 831.105pt x 245.91875pt>
 File: Chapter 2/Figures/Spatial Diversity.png Graphic file (type png)
 <use Chapter 2/Figures/Spatial Diversity.png>
 Package pdftex.def Info: Chapter 2/Figures/Spatial Diversity.png  used on input
@@ -1512,7 +1517,7 @@ Overfull \hbox (45.69894pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
-<Chapter 2/Figures/Spatial Multiplexing.jpg, id=622, 621.64992pt x 175.23875pt>
+<Chapter 2/Figures/Spatial Multiplexing.jpg, id=646, 621.64992pt x 175.23875pt>
 
 File: Chapter 2/Figures/Spatial Multiplexing.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Spatial Multiplexing.jpg>
@@ -1537,27 +1542,27 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 57.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [12 <./Chapter 2/Figures/Interference.jpg> <./Chapter 2/Figures/Spatial Divers
 ity.png (PNG copy)>]
-<Chapter 2/Figures/Frequency Selective Fading.jpg, id=648, 413.1435pt x 169.834
+<Chapter 2/Figures/Frequency Selective Fading.jpg, id=672, 413.1435pt x 169.834
 5pt>
 File: Chapter 2/Figures/Frequency Selective Fading.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Frequency Selective Fading.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Frequency Selective Fading.jpg  used
  on input line 60.
 (pdftex.def)             Requested size: 413.14247pt x 169.83408pt.
-<Chapter 2/Figures/Flat Fading Subchannel.jpg, id=649, 266.1945pt x 181.8795pt>
+<Chapter 2/Figures/Flat Fading Subchannel.jpg, id=673, 266.1945pt x 181.8795pt>
 
 File: Chapter 2/Figures/Flat Fading Subchannel.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Flat Fading Subchannel.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Flat Fading Subchannel.jpg  used on 
 input line 67.
 (pdftex.def)             Requested size: 266.19385pt x 181.87904pt.
-<Chapter 2/Figures/MCM Transmitter.jpg, id=650, 281.853pt x 178.86826pt>
+<Chapter 2/Figures/MCM Transmitter.jpg, id=674, 281.853pt x 178.86826pt>
 File: Chapter 2/Figures/MCM Transmitter.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/MCM Transmitter.jpg>
 Package pdftex.def Info: Chapter 2/Figures/MCM Transmitter.jpg  used on input l
 ine 74.
 (pdftex.def)             Requested size: 281.85231pt x 178.86781pt.
-<Chapter 2/Figures/MCM Receiver.jpg, id=651, 352.31625pt x 193.32225pt>
+<Chapter 2/Figures/MCM Receiver.jpg, id=675, 352.31625pt x 193.32225pt>
 File: Chapter 2/Figures/MCM Receiver.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/MCM Receiver.jpg>
 Package pdftex.def Info: Chapter 2/Figures/MCM Receiver.jpg  used on input line
@@ -1593,19 +1598,19 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 103
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
 [15]
-<Chapter 2/Figures/OFDM Orthogonality.png, id=685, 228.855pt x 108.73958pt>
+<Chapter 2/Figures/OFDM Orthogonality.png, id=709, 228.855pt x 108.73958pt>
 File: Chapter 2/Figures/OFDM Orthogonality.png Graphic file (type png)
 <use Chapter 2/Figures/OFDM Orthogonality.png>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Orthogonality.png  used on inpu
 t line 106.
 (pdftex.def)             Requested size: 228.85443pt x 108.73929pt.
-<Chapter 2/Figures/OFDM Symbol Timing.jpg, id=686, 344.487pt x 63.8385pt>
+<Chapter 2/Figures/OFDM Symbol Timing.jpg, id=710, 344.487pt x 63.8385pt>
 File: Chapter 2/Figures/OFDM Symbol Timing.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/OFDM Symbol Timing.jpg>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Symbol Timing.jpg  used on inpu
 t line 113.
 (pdftex.def)             Requested size: 344.48615pt x 63.83833pt.
-<Chapter 2/Figures/Cyclic Prefix.jpg, id=695, 343.88475pt x 100.57574pt>
+<Chapter 2/Figures/Cyclic Prefix.jpg, id=719, 343.88475pt x 100.57574pt>
 File: Chapter 2/Figures/Cyclic Prefix.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Cyclic Prefix.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Cyclic Prefix.jpg  used on input lin
@@ -1622,13 +1627,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--142
 
  []
 
-<Chapter 2/Figures/OFDM Transmitter.jpg, id=722, 430.60875pt x 183.68625pt>
+<Chapter 2/Figures/OFDM Transmitter.jpg, id=746, 430.60875pt x 183.68625pt>
 File: Chapter 2/Figures/OFDM Transmitter.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/OFDM Transmitter.jpg>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Transmitter.jpg  used on input 
 line 145.
 (pdftex.def)             Requested size: 430.60768pt x 183.68578pt.
-<Chapter 2/Figures/OFDM Receiver.png, id=724, 803.0pt x 238.8925pt>
+<Chapter 2/Figures/OFDM Receiver.png, id=748, 803.0pt x 238.8925pt>
 File: Chapter 2/Figures/OFDM Receiver.png Graphic file (type png)
 <use Chapter 2/Figures/OFDM Receiver.png>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Receiver.png  used on input lin
@@ -1676,7 +1681,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 
 
 ]
-<Chapter 3/Figures/Block system.png, id=773, 444.91219pt x 124.96687pt>
+<Chapter 3/Figures/Block system.png, id=797, 444.91219pt x 124.96687pt>
 File: Chapter 3/Figures/Block system.png Graphic file (type png)
 <use Chapter 3/Figures/Block system.png>
 Package pdftex.def Info: Chapter 3/Figures/Block system.png  used on input line
@@ -1765,17 +1770,20 @@ Package logreq Info: Writing requests to '"Urban MCM".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31657 strings out of 479697
- 588101 string characters out of 2875088
- 1337306 words of memory out of 3000000
- 47947 multiletter control sequences out of 15000+200000
+ 31690 strings out of 479697
+ 588672 string characters out of 2875088
+ 1337573 words of memory out of 3000000
+ 47979 multiletter control sequences out of 15000+200000
  415105 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,15n,100p,1126b,2145s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:simo} has been referenced but does not exist,
- replaced by a fixed one
+pdfTeX warning (dest): name{glo:modems} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:siso} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:simo} has been referenced but does not exist, r
 eplaced by a fixed one
 
  <C:\Users\Nagendra KJ\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
@@ -1794,9 +1802,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmtt12.pfb>
-Output written on "Urban MCM.pdf" (43 pages, 1202517 bytes).
+Output written on "Urban MCM.pdf" (43 pages, 1206658 bytes).
 PDF statistics:
- 929 PDF objects out of 1000 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
+ 950 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
  588 words of extra memory for PDF output out of 10000 (max. 10000000)
 

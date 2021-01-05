@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 clear
 
 n_bits = 10^6;
@@ -87,8 +86,6 @@ end
 
 err = sum(bit_stream_rcvd ~= data) ./ n_bits
 fprintf(" Time taken = %d t1 \n" , no_of_times);
-||||||| merged common ancestors
-=======
 clear
 
 n_bits = 10^4;
@@ -177,4 +174,3 @@ end
 
 err = sum(bit_stream_rcvd ~= data) ./ n_bits
 fprintf(" Time taken = %d t1 \n" , number_of_times);
->>>>>>> origin/inverse_channel
