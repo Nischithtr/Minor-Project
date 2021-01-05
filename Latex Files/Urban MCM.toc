@@ -50,80 +50,90 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Diversity}{10}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Intersymbol Interference, Frequency Selective Fading and the need for MCM}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Multiplexing}{11}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Shortcomings of MCM and the need for OFDM}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Intersymbol Interference, Frequency Selective Fading and the need for MCM}{13}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}OFDM}{15}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Shortcomings of simple MCM and the need for OFDM}{14}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Concept of OFDM}{15}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}OFDM}{16}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Advantages of OFDM}{16}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.6.1}Concept of OFDM}{16}{subsection.2.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Disadvantages of OFDM}{17}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6.2}Advantages of OFDM}{18}{subsection.2.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}OFDM Transceiver System}{17}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.3}Disadvantages of OFDM}{18}{subsection.2.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Alamouti Coding Scheme}{18}{section.2.7}%
+\contentsline {section}{\numberline {2.7}OFDM Transceiver System}{18}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Inverse Channel Estimation}{19}{section.2.8}%
+\contentsline {section}{\numberline {2.8}Alamouti Coding Scheme}{18}{section.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.9}Singular Value Decomposition}{19}{section.2.9}%
+\contentsline {section}{\numberline {2.9}Inverse Channel Estimation}{21}{section.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Chapter 3 - Design of MCM and MIMO Processing Systems for Urban Communication}{21}{chapter.3}%
+\contentsline {section}{\numberline {2.10}Singular Value Decomposition}{22}{section.2.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Basic Overview of our system}{22}{section.3.1}%
+\contentsline {chapter}{\numberline {3}Chapter 3 - Design of MCM and MIMO Processing Systems for Urban Communication}{24}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Transmitter}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Basic Overview of our system}{25}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}PRBS Generator}{22}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.2}Transmitter}{25}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Tone Loading Algorithm for the transmitter}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.1}PRBS Generator}{25}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}QAM Modulator}{22}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.2}Tone Loading Algorithm for the transmitter}{25}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Alamouti Coder}{23}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.3}QAM Modulator}{25}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Inverse Channel Estimator and Coder}{23}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.4}Alamouti Coder}{26}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}Singular Value Decomposition Coder}{23}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.5}Inverse Channel Estimator and Coder}{26}{subsection.3.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Channel Parameters}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.6}Singular Value Decomposition Coder}{26}{subsection.3.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}AWGN Noise}{23}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.3}Channel Parameters}{26}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Rayleigh Fading}{23}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.1}AWGN Noise}{26}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Path Loss Function}{23}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.2}Rayleigh Fading}{26}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Receiver}{23}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.3}Path Loss Function}{26}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Alamouti Decoder}{23}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.4}Receiver}{26}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}QAM Demodulator}{23}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.1}Alamouti Decoder}{26}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Different Systems}{23}{section.3.5}%
+\contentsline {subsection}{\numberline {3.4.2}QAM Demodulator}{26}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}SISO System}{23}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.5}Different Systems}{26}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}MISO System}{23}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.1}SISO System}{26}{subsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}SIMO System}{24}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.2}MISO System}{26}{subsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.4}MIMO System}{24}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.3}SIMO System}{27}{subsection.3.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Results and Inferences}{25}{chapter.4}%
+\contentsline {subsection}{\numberline {3.5.4}MIMO System}{27}{subsection.3.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}SISO System Results}{26}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Results and Inferences}{28}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}SIMO System Results}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Parameters for Simulations}{29}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}MISO System Results}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.2}SISO System Results}{29}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}MIMO System Results}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.3}SIMO System Results}{31}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{27}{chapter.5}%
+\contentsline {section}{\numberline {4.4}MISO System Results}{31}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Concluding Remarks}{28}{section.5.1}%
+\contentsline {section}{\numberline {4.5}MIMO System Results}{31}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future Scope}{28}{section.5.2}%
+\contentsline {subsection}{\numberline {4.5.1}MIMO Diversity Case}{31}{subsection.4.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}MIMO Multiplexing Case}{33}{subsection.4.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}MIMO Multiplexing with Inverse Channel Estimation Precoder}{34}{subsection.4.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}MIMO Multiplexing with Singular Value Decomposition Precoder}{34}{subsection.4.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{37}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Future Scope}{38}{section.5.1}%

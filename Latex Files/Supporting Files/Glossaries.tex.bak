@@ -97,6 +97,7 @@
 
 %Q
 \newacronym{qam}{QAM}{Quadrature Amplitude Modulation}
+\newacronym{qos}{QoS}{Quality of Service}
 
 %R
 \newacronym{rf}{RF}{Radio Frequency}

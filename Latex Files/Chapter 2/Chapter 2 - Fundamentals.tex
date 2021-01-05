@@ -1,12 +1,12 @@
 \chapter{Theory and Fundamentals of MIMO and MCM}
-This chapter focuses on the fundamental principles of \acrshort{mimo} and \acrshort{mcm}. We firmly establish some of the prerequisite learning required before we can discuss the actual design of our system in the next chapter. We begin by looking at the shortcomings of single channel systems and how they can be overcome with the help of \acrshort{mcm}. We also highlight how some of the shortcomings of single channel systems can be used to our advantage in \acrshort{mcm}-\acrshort{mimo} systems. We also spend some time looking into concepts such as \gls{rayleigh fading} and Alamouti coding scheme to gain a thorough understanding on mobile communication systems.
+This chapter focuses on the fundamental principles of \acrshort{mimo} and \acrshort{mcm}. We firmly establish some of the prerequisite learning required before we can discuss the actual design of our system in the next chapter. We begin by looking at the shortcomings of single channel systems and how they can be overcome with the help of \acrshort{mcm}. We also highlight how some of the shortcomings of single channel systems can be used to our advantage in \acrshort{mcm}-\acrshort{mimo} systems. We also spend some time looking into concepts such as \gls{rayleigh fading} and different precoding schemes to gain a thorough understanding on mobile communication systems.
 
 \section{The Need for MIMO}
 
-In a typical mobile communication system, the \acrlong{ue} abbreviated as \acrshort{ue} and \acrlong{bs} abbreviated as \acrshort{bs} are quite far apart. Typical distances are in the kilometer range. As a result, the signal undergoes attenuation as it travels and signal quality degrades to levels that make retrieval of information impossible. A typical example of the variation of received power with distance is given in the figure \ref{fig:path loss}.\\
+In a typical mobile communication system, the \acrlong{ue} (\acrshort{ue}) and \acrlong{bs} (\acrshort{bs}) are quite far apart. Typical distances are in the kilometer range. As a result, the signal undergoes attenuation as it travels and signal quality degrades to levels that make retrieval of information impossible. A typical example of the variation of received power with distance is given in the figure \ref{fig:path loss}.\\
 Various statistical models have been developed to model path loss and fading. In our report, we use a simple \acrlong{los} path loss function abbreviated as \acrshort{los}. This coupled with \gls{rayleigh fading} and \acrshort{awgn} noise forms the channel component of our report. The exact implementation details of each of these terms is discussed in Chapter 3.\\
 
-Apart from this, there are also considerations for the service provider with regards to maximizing user capacity and spectral efficiency. Couple this with the need for high data rates from subscribers, we see quickly that single antenna systems are not a feasible option for modern communication. Hence, we must come up with large scale and complex systems of transmitters and receivers to meet the demand. In this report, we show the implementation of various versions of \acrshort{mimo} upto $2 \times 2$.  
+Apart from this, there are also considerations for the service provider with regards to maximizing user capacity and spectral efficiency. Along with this, it becomes necessary to provide high data rates to subscribers for various applications. Meeting all these requirements in single channel systems leads to the design of extremely cost prohibitive modems and in some cases is almost impossible. Hence, we must come up with large scale and complex systems of transmitters and receivers to meet the demand. In this report, we show the implementation of various versions of \acrshort{mimo} upto $2 \times 2$. \acrshort{mimo} itself can be used in various ways namely multiplexing and diversity. In the following sections we take  a closer look at these configurations.
 
 \begin{figure}[!htbp]
 \centering
@@ -16,7 +16,7 @@ Apart from this, there are also considerations for the service provider with reg
 \end{figure}
 
 \section{Diversity}
-Mitigation of fading requires techniques such as diversity, wherein copies of the same data are sent from the transmitter to the receiver so that reliability of atleast one copy reaching the receiver in an error free manner is increased.\\
+Mitigation of fading and overcoming low \acrshort{snr} regimes to maintain a suitable \acrshort{qos} requires techniques such as diversity, wherein copies of the same data are sent from the transmitter to the receiver so that reliability of accurately decoding the transmitted symbols is increased.\\
 Diversity can be achieved primarily in three ways, they are
 \begin{enumerate}
 \item \textbf{Frequency Diversity}: Where multiple copies of the same data are sent on different frequency channels
@@ -30,8 +30,21 @@ Among the three possible methods, \gls{spatial diversity} is attractive to us be
 \caption{Multipath Propagation in a typical urban setting}
 \label{fig:multipath propagation}
 \end{figure}
-However, in a single channel system, the multiple copies arriving at different time instances leads to interference of the signal. This interference may be constructive or destructive in nature as shown in the figure \ref{fig:constructive and destructive interference}. This can lead to difficulties in decoding as it would mean the requirement of expensive equalizers or reduction in the symbol rate. Neither option is feasible for us, and hence, it becomes apparent to us how having multiple transmit and receive antennas can easily overcome this issue. With the help of multiple antennas, the same situation which was causing \acrlong{isi} abbreviated as \acrshort{isi} becomes a boon to us by allowing multiple antenna paths between the transmitter and receiver allowing for easy implementation of \gls{spatial diversity}. This situation is shown in the figure \ref{fig:spatial diversity}\\
-As an added benefit, supposing the channel conditions are suitable and the \acrshort{snr} is sufficiently high, instead of sending multiple copies of the same data, we can send different data blocks on different antenna paths increasing the overall data rate per user and the user capacity of the system. This concept is known as \gls{spatial multiplexing} demonstrated in the figure \ref{fig:spatial multiplexing}.
+However, in a single channel system, the multiple copies arriving at different time instances leads to interference of the signal. This interference may be constructive or destructive in nature as shown in the figure \ref{fig:constructive and destructive interference}. This can lead to difficulties in decoding as it would mean the requirement of expensive equalizers or reduction in the symbol rate. Neither option is feasible for us, and hence, it becomes apparent to us how having multiple transmit and receive antennas can easily overcome this issue. With the help of multiple antennas, the same situation which was causing \acrlong{isi} (\acrshort{isi}) becomes a boon to us by allowing multiple antenna paths between the transmitter and receiver allowing for easy implementation of \gls{spatial diversity}. This situation is shown in the figure \ref{fig:spatial diversity}\\
+
+\section{Multiplexing}
+Supposing the channel conditions are suitable and the \acrshort{snr} is sufficiently high, meaning we are in a high \acrshort{snr} regime, instead of sending multiple copies of the same data, we can send different data blocks on different antenna paths increasing the overall data rate per user and the user capacity of the system. This concept is known as \gls{spatial multiplexing} demonstrated in the figure \ref{fig:spatial multiplexing}.\\
+
+Apart from \gls{spatial multiplexing} we can also implement time multiplexing and frequency multiplexing wherein different data symbols are sent in different time slots or frequency blocks respectively. Modern day \acrshort{4g} and \acrshort{5g} uses all three forms of multiplexing to increase data rates and capacity.\\
+
+When we are given the various options for multiplexing, we can either
+\begin{enumerate}
+\item Assign multiple resource blocks (either in time, frequency or antenna paths) to a single user to significantly improve his data rate and \acrshort{qos}.
+\item The alternative is to accommodate more users by assigning each one or more resource blocks to each and improving the capacity.
+\end{enumerate}
+
+This option is left to the service providers to implement resource allocation as per the market requirements. Hence, we see the significant advantages \acrshort{mimo} has enabled for us by opening the doors to \acrshort{mimo} and \acrshort{mcm}.
+
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=1]{Chapter 2/Figures/Interference}
@@ -45,15 +58,18 @@ As an added benefit, supposing the channel conditions are suitable and the \acrs
 \caption{Spatial Diversity}
 \label{fig:spatial diversity}
 \end{figure}
+
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.7]{Chapter 2/Figures/Spatial Multiplexing}
 \caption{Spatial Multiplexing}
 \label{fig:spatial multiplexing}
 \end{figure}
+
+
 \section{Intersymbol Interference, Frequency Selective Fading and the need for MCM}
-In the previous section we showed how \acrshort{isi} and fading proved as sufficient motivation to move in the direction of multiple antenna system. However, the issue of \acrshort{isi} cannot be tackled alone by \acrshort{mimo}. Added to the menace of \acrshort{isi} the channel can also degrade the message in a frequency selective manner leading to added difficulties in information recovery at the receiver as shown in the figure \ref{fig:frequency selective fading}. Frequency selective fading occurs because the channel conditions are in constant flux and the message time period is not the same as the time period for which the channel conditions are relatively constant\\
-An effective way to combat frequency selective fading is to breakup the entire bandwidth into smaller subchannels where the bandwidth of each subchannel is smaller than \acrshort{bc} the \acrlong{bc}, thus ensuring that the message time period is smaller than \acrshort{td} the \acrlong{td}. This approach to communication is called as Multi Carrier Modulation technique. The implementation of \acrshort{mcm} is simple is we realize that we realize that we can split the given bandwidth into subchannels by simply introducing an \acrshort{ifft} block at the transmitter and to achieve the opposite effect introduce an \acrshort{fft} block at the receiver. With the help of this, we are able to significantly reduce the problems of frequency selective fading and \acrshort{isi}. The basic structure of a \acrshort{mcm} transmitter and receiver is given in the figures \ref{fig:mcm transmitter} and \ref{fig:mcm receiver}.
+In the previous section we saw sufficient motivation to move in the direction of multiple antenna system. However, the issue of \acrshort{isi} needs to be tackled sufficiently to provide significantly high data  rates. Added to the menace of \acrshort{isi} the channel can also degrade the message in a frequency selective manner leading to added difficulties in information recovery at the receiver as shown in the figure \ref{fig:frequency selective fading}. Frequency selective fading occurs because the channel conditions are in constant flux and the message time period is not the same as the time period for which the channel conditions are relatively constant\\
+An effective way to combat frequency selective fading is to breakup the entire bandwidth into smaller subchannels where the bandwidth of each subchannel is smaller than the \acrlong{bc} (\acrshort{bc}), thus ensuring that the message time period is smaller than the \acrlong{td} (\acrshort{td}). This approach to communication is called as \acrlong{mcm}(\acrshort{mcm}) technique. The implementation of \acrshort{mcm} is simple if we realize that we can split the given bandwidth into different subchannels by simply introducing an \acrshort{ifft} block at the transmitter and to achieve the opposite effect introduce an \acrshort{fft} block at the receiver. With the help of this, we are able to significantly reduce the problems of frequency selective fading and \acrshort{isi}. The basic structure of a \acrshort{mcm} transmitter and receiver is given in the figures \ref{fig:mcm transmitter} and \ref{fig:mcm receiver}.
 
 \begin{figure}[!htbp]
 \centering
@@ -86,7 +102,7 @@ An effective way to combat frequency selective fading is to breakup the entire b
 
 
 
-\section{Shortcomings of MCM and the need for OFDM}
+\section{Shortcomings of simple MCM and the need for OFDM}
 Having shown the implementation of a simple \acrshort{mcm} system, we address some of the shortcomings of this. Primarily,
 \begin{itemize}
 \item It is impossible to realistically have sharply defined bandwidths, as there exists no way to define a pulse which is strictly rectangular in the frequency domain.
@@ -209,13 +225,84 @@ At the receiver, once we have matrix $y$, $x_1$ and $x_2$ can be recovered as fo
 \frac{c_1^H}{||c_1||} \cdot y &= ||c_1||x_1 + \overline{w_1}\\
 \frac{c_2^H}{||c_2||} \cdot y &= ||c_2||x_2 + \overline{w_2}
 \end{align*}
-Here, $c_1^H$ and $c_2^H$ are the result obtained after performing the hermitian operator on the $c$ matrices. We notice that $x_1$ and $x_2$ are scaled by a factor and mixed with \acrshort{awgn} noise. With a suitable decision criteria, both $x_1$ and $x_2$ can be decoded correctly in two time slots. This shows how Alamouti coding scheme is effective when used in the \gls{spatial diversity} mode of a $2 \times 1$ \acrshort{miso} system. However, in higher order schemes, Alamouti coding loses it's efficiency and is not feasible.
+Here, $c_1^H$ and $c_2^H$ are the result obtained after performing the Hermitian operator on the $c$ matrices. We notice that $x_1$ and $x_2$ are scaled by a factor and mixed with \acrshort{awgn} noise. With a suitable decision criteria, both $x_1$ and $x_2$ can be decoded correctly in two time slots. This shows how Alamouti coding scheme is effective when used in the \gls{spatial diversity} mode of a $2 \times 1$ \acrshort{miso} system. However, in higher order schemes, Alamouti coding loses it's efficiency and is not feasible.
 
 \section{Inverse Channel Estimation}
-Here we discuss the advantages of Inverse Channel Estimation and lay the foundation for Inverse Channel Estimation Coder.
+The received symbol vector $y$ is related to the transmitted vector $x$ and channel coefficient matrix $h$ as\\
+\begin{align*}
+\begin{bmatrix}
+y
+\end{bmatrix}
+&=
+\begin{bmatrix}
+x
+\end{bmatrix}
+\times
+\begin{bmatrix}
+h
+\end{bmatrix}
++
+\begin{bmatrix}
+n
+\end{bmatrix}
+\end{align*}
+where $\begin{bmatrix} n \end{bmatrix}$ is the \acrshort{awgn} noise vector.\\
+From this, we can extract the sent symbols by multiplying $\begin{bmatrix} y \end{bmatrix}$ with the inverse of the channel coefficient matrix which yields the following expression.
+
+\begin{align*}
+\begin{bmatrix}
+y
+\end{bmatrix}
+\times
+\begin{bmatrix}
+h
+\end{bmatrix}
+^{-1}
+&=
+\begin{bmatrix}
+x
+\end{bmatrix}
++
+\begin{bmatrix}
+w_1
+\end{bmatrix}
+\end{align*}
+where $\begin{bmatrix} w_1 \end{bmatrix}$ is the result obtained after multiplying $\begin{bmatrix} n \end{bmatrix}$ with $\begin{bmatrix}h \end{bmatrix}^{-1}$.\\
+
+Further processing is necessary to remove the noise vector $\begin{bmatrix} w_1 \end{bmatrix}$. However, one of the issues we face is that $\begin{bmatrix} w_1 \end{bmatrix}$ is no longer \acrshort{awgn} but becomes colored noise. Therefore, to overcome this hindrance, we precode the transmitted symbols vector $\begin{bmatrix} x \end{bmatrix}$ by multiplying it with $\begin{bmatrix} h \end{bmatrix}^{-1}$. The received vector $\begin{bmatrix} y \end{bmatrix}$ then becomes
+
+\begin{align*}
+\begin{bmatrix} y \end{bmatrix} &=
+\begin{bmatrix} x \end{bmatrix}
+\times
+\begin{bmatrix} h \end{bmatrix}^{-1}
++
+\begin{bmatrix} n \end{bmatrix}
+\end{align*}
+
+Finally, when we try and extract the transmitted symbols at the receiver by multiplying with $\begin{bmatrix} h \end{bmatrix}$ we get
+
+\begin{align*}
+\begin{bmatrix} y \end{bmatrix} \times
+\begin{bmatrix} h \end{bmatrix} &=
+\times
+\begin{bmatrix} x \end{bmatrix}
++
+\begin{bmatrix} w_2 \end{bmatrix}
+\end{align*}
+where $\begin{bmatrix} w_2 \end{bmatrix}$ is the result obtained after multiplying $\begin{bmatrix} n \end{bmatrix}$ with $\begin{bmatrix} h \end{bmatrix}$.\\
+
+Now, $\begin{bmatrix} w_2 \end{bmatrix}$ remains to be Gaussian and hence further noise processing becomes simpler with normal demodulators and \acrshort{mli} estimators.
+
+
+
 
 \section{Singular Value Decomposition}
-Here we discuss the advantages of SVD and lay the foundation for SVD Coder.
+In the previous section we saw the advantage of using Inverse Channel Estimation precoding. However, in massive \acrshort{mimo} systems where the number of antenna paths are plenty and the order of the channel coefficient matrix is large, inversion of matrices becomes a computationally intensive task. Since we are required to have high speed \gls{modems} which do not take more than a few microseconds to make the necessary computations, we must look to faster ways of inverting the channel coefficient matrix.\\
+In this effort we use the singular value decomposition technique where we decompose the channel coefficient matrix $\begin{bmatrix} h \end{bmatrix}$ into three orthogonal matrices $\begin{bmatrix} U \end{bmatrix}$ , $\begin{bmatrix} \Sigma \end{bmatrix}$ and, $\begin{bmatrix} V \end{bmatrix}$.
+
+At the transmitter we multiply the transmitted symbol vector $\begin{bmatrix} x \end{bmatrix}$ with $\begin{bmatrix} V \end{bmatrix}$ and similarly at the receiver we multiply the received vector $\begin{bmatrix} y \end{bmatrix}$ with $\begin{bmatrix} U \end{bmatrix}$ to achieve the same effect as inversion.\\
+Singular value decomposition is faster than regular inversion for large matrices and hence proves faster in massive \acrshort{mimo} systems.
 
 \section*{Summary}
 In this section we have elaborated on the motivations behind \acrshort{mcm} and \acrshort{mimo}. We have also clearly elaborated on the key technologies that enable them. In the next chapter, we will discuss the implementation details of our \acrshort{mcm}-\acrshort{mimo} system and explain the different algorithms we have used. Finally, in Chapter 4 we will discuss the results obtained after simulations and draw conclusions as to the overall system performance.  

@@ -1,8 +1,6 @@
 \chapter{Conclusion and Future Scope}
-This chapter is a final conclusion and talks about the future scope of our design.
-\section{Concluding Remarks}
-Concluding Remarks to be written here
+We end this report by stating that we have definitively shown in this report through our simulations, that \acrshort{mcm} and \acrshort{mimo} can be effectively used to improve user capacity and data rates. We have shown how switching to diversity in low \acrshort{snr} regimes and multiplexing in high \acrshort{snr} regimes can maintain good \acrlong{qos} for users. Thus, we can build upon existing \acrshort{4g} and \acrshort{5g} systems and expand them to be used in multiplexing scheme along with diversity.
 
 \section{Future Scope}
-We discuss the limitations of our design and mention the various ways it can be improved upon for further research.
+For readers, we suggest further improvements can be done by improving upon the channel modeling by introducing more real world phenomenon like sh
 

@@ -78,7 +78,7 @@ t1 = [b_channel1.channel_id];
 t2 = [b_channel2.channel_id];
 
 ii = 1;
-number_of_times = 0;
+no_of_times = 0;
 while (ii <= n_bits)
     data_one_pass_t1 = data(ii : min(ii + sum(bn1) - 1 , n_bits)) ;
     ii = ii + sum(bn1);
@@ -89,8 +89,9 @@ while (ii <= n_bits)
     received_symbols = h_selected .* QAM_symbols + noise ;% QAM symbol + AWGN noise
     bit_stream_rcvd = [bit_stream_rcvd qam_demod(received_symbols(:,1),b_n_updated_1',g_array1,estimated_h1)]; % Perform demod on the receiver end
     bit_stream_rcvd = [bit_stream_rcvd qam_demod(received_symbols(:,2),b_n_updated_2',g_array2,estimated_h2)]; % Perform demod on the receiver end
-    number_of_times = number_of_times + 1;
+    no_of_times = no_of_times + 1;
 end
 
-err = sum(bit_stream_rcvd ~= data) ./ n_bits
-fprintf(" Time taken = %d t1 \n" , number_of_times);
+err = sum(bit_stream_rcvd ~= data) ./ n_bits;
+fprintf("The bit error rate is %d \n", err);
+fprintf(" Number of cycles taken = %d \n" , no_of_times);

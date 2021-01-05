@@ -1,7 +1,7 @@
 clear
 
-nbits = 10^6;
-data = randi([0,1],1,nbits) ;
+n_bits = 10^6;
+data = randi([0,1],1,n_bits) ;
 
 Nsc = 256;
 d = 1000;
@@ -47,16 +47,25 @@ t2 = [b_channel2.channel_id];
 bit_stream_rcvd = [];
 
 ii = 1;
-while (ii <= nbits)
-    data_one_pass_t1 = data(ii : min(ii + sum(bn1) - 1 , nbits)) ;
+no_of_times=0;
+while (ii <= n_bits)
+    tic;
+    data_one_pass_t1 = data(ii : min(ii + sum(bn1) - 1 , n_bits)) ;
     ii = ii + sum(bn1);
     [QAM_symbols(:,1),b_n_updated_1] = qam_mod(data_one_pass_t1,bn1,t1,g_array1); % QAM symbols
-    data_one_pass_t2 = data(ii : min(ii + sum(bn2) - 1 , nbits)) ;
+    data_one_pass_t2 = data(ii : min(ii + sum(bn2) - 1 , n_bits)) ;
     ii = ii + sum(bn2);
     [QAM_symbols(:,2),b_n_updated_2] = qam_mod(data_one_pass_t2,bn2,t2,g_array2); % QAM symbols
     received_symbols = h .* QAM_symbols + noise ;% QAM symbol + AWGN noise
     bit_stream_rcvd = [bit_stream_rcvd qam_demod(received_symbols(:,1),b_n_updated_1',g_array1,estimated_h(:,1))]; % Perform demod on the receiver end
     bit_stream_rcvd = [bit_stream_rcvd qam_demod(received_symbols(:,2),b_n_updated_2',g_array2,estimated_h(:,2))]; % Perform demod on the receiver end
+    no_of_times=no_of_times+1;
+    time_per_cycle=toc;
 end
 
-err = sum(bit_stream_rcvd ~= data) ./ nbits
+err = sum(bit_stream_rcvd ~= data) ./ n_bits;
+fprintf("The bit error rate is %d \n", err);
+fprintf("The number of cycles is %d \n", no_of_times);
+fprintf("The taken for one cycle = %f seconds \n", time_per_cycle);
+data_rate = n_bits/(time_per_cycle*no_of_times);
+fprintf("The data rate is %8.f bits per second \n", data_rate); 

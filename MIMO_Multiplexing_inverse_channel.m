@@ -84,5 +84,6 @@ while (ii <= n_bits)
     no_of_times = no_of_times + 1;
 end
 
-err = sum(bit_stream_rcvd ~= data) ./ n_bits
-fprintf(" Time taken = %d t1 \n" , no_of_times);
+err = sum(bit_stream_rcvd ~= data) ./ n_bits;
+fprintf("The bit error rate is %d \n", err);
+fprintf(" Number of cycles taken = %d \n" , no_of_times);

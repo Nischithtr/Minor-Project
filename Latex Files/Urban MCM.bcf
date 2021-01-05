@@ -2355,31 +2355,32 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">George2017</bcf:citekey>
-    <bcf:citekey order="2">George2017</bcf:citekey>
+    <bcf:citekey order="2">Weinstein1971</bcf:citekey>
     <bcf:citekey order="3">Weinstein1971</bcf:citekey>
-    <bcf:citekey order="4">Weinstein1971</bcf:citekey>
+    <bcf:citekey order="4">Wu1995</bcf:citekey>
     <bcf:citekey order="5">Wu1995</bcf:citekey>
-    <bcf:citekey order="6">Wu1995</bcf:citekey>
+    <bcf:citekey order="6">Bellili2015</bcf:citekey>
     <bcf:citekey order="7">Bellili2015</bcf:citekey>
-    <bcf:citekey order="8">Bellili2015</bcf:citekey>
+    <bcf:citekey order="8">Alamouti1998</bcf:citekey>
     <bcf:citekey order="9">Alamouti1998</bcf:citekey>
-    <bcf:citekey order="10">Alamouti1998</bcf:citekey>
-    <bcf:citekey order="11">Hanlen2006</bcf:citekey>
+    <bcf:citekey order="10">Klema1980</bcf:citekey>
+    <bcf:citekey order="11">Klema1980</bcf:citekey>
     <bcf:citekey order="12">Hanlen2006</bcf:citekey>
-    <bcf:citekey order="13">ITU2009</bcf:citekey>
+    <bcf:citekey order="13">Hanlen2006</bcf:citekey>
     <bcf:citekey order="14">ITU2009</bcf:citekey>
-    <bcf:citekey order="15">Peinado2013</bcf:citekey>
+    <bcf:citekey order="15">ITU2009</bcf:citekey>
     <bcf:citekey order="16">Peinado2013</bcf:citekey>
-    <bcf:citekey order="17">ITU2009</bcf:citekey>
+    <bcf:citekey order="17">Peinado2013</bcf:citekey>
     <bcf:citekey order="18">ITU2009</bcf:citekey>
-    <bcf:citekey order="19">Klema1980</bcf:citekey>
+    <bcf:citekey order="19">ITU2009</bcf:citekey>
     <bcf:citekey order="20">Klema1980</bcf:citekey>
-    <bcf:citekey order="21">Chow1995</bcf:citekey>
+    <bcf:citekey order="21">Klema1980</bcf:citekey>
     <bcf:citekey order="22">Chow1995</bcf:citekey>
-    <bcf:citekey order="23">Shannon1948</bcf:citekey>
+    <bcf:citekey order="23">Chow1995</bcf:citekey>
     <bcf:citekey order="24">Shannon1948</bcf:citekey>
-    <bcf:citekey order="25">Ghosh2010</bcf:citekey>
+    <bcf:citekey order="25">Shannon1948</bcf:citekey>
     <bcf:citekey order="26">Ghosh2010</bcf:citekey>
+    <bcf:citekey order="27">Ghosh2010</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
