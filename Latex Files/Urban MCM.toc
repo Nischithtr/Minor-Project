@@ -106,7 +106,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Different Systems}{26}{section.3.5}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.5.1}SISO System}{26}{subsection.3.5.1}%
+||||||| merged common ancestors
+\contentsline {subsection}{\numberline {3.5.2}MISO System}{23}{subsection.3.5.2}%
+=======
+\contentsline {subsection}{\numberline {3.5.2}MISO System}{24}{subsection.3.5.2}%
+>>>>>>> 787713e4a4e61d979e61e59593cef281789d3e9e
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}MISO System}{26}{subsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
