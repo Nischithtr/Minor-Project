@@ -106,7 +106,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.1}SISO System}{23}{subsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}MISO System}{23}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.2}MISO System}{24}{subsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.3}SIMO System}{24}{subsection.3.5.3}%
 \defcounter {refsection}{0}\relax 
