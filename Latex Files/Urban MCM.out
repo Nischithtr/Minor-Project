@@ -1,7 +1,7 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 2
-\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 3
-\BOOKMARK [0][-]{section*.5}{Abbreviations}{}% 4
+\BOOKMARK [0][-]{chapter*.3}{List of Algorithms}{}% 3
+\BOOKMARK [0][-]{section*.5}{List of Abbreviations}{}% 4
 \BOOKMARK [0][-]{section*.7}{List of Terms}{}% 5
 \BOOKMARK [0][-]{chapter.1}{Introduction to Wireless Communication Systems}{}% 6
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 7
@@ -30,36 +30,31 @@
 \BOOKMARK [1][-]{section.2.8}{Alamouti Coding Scheme}{chapter.2}% 30
 \BOOKMARK [1][-]{section.2.9}{Inverse Channel Estimation}{chapter.2}% 31
 \BOOKMARK [1][-]{section.2.10}{Singular Value Decomposition}{chapter.2}% 32
-\BOOKMARK [0][-]{chapter.3}{Chapter 3 - Design of MCM and MIMO Processing Systems for Urban Communication}{}% 33
-\BOOKMARK [1][-]{section.3.1}{Basic Overview of our system}{chapter.3}% 34
+\BOOKMARK [0][-]{chapter.3}{Design of MCM and MIMO Processing Systems for Urban Communication}{}% 33
+\BOOKMARK [1][-]{section.3.1}{Basic Overview of our System}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.2}{Transmitter}{chapter.3}% 35
 \BOOKMARK [2][-]{subsection.3.2.1}{PRBS Generator}{section.3.2}% 36
 \BOOKMARK [2][-]{subsection.3.2.2}{Tone Loading Algorithm for the transmitter}{section.3.2}% 37
 \BOOKMARK [2][-]{subsection.3.2.3}{QAM Modulator}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.4}{Alamouti Coder}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.5}{Inverse Channel Estimator and Coder}{section.3.2}% 40
-\BOOKMARK [2][-]{subsection.3.2.6}{Singular Value Decomposition Coder}{section.3.2}% 41
-\BOOKMARK [1][-]{section.3.3}{Channel Parameters}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.1}{AWGN Noise}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.2}{Rayleigh Fading}{section.3.3}% 44
-\BOOKMARK [2][-]{subsection.3.3.3}{Path Loss Function}{section.3.3}% 45
-\BOOKMARK [1][-]{section.3.4}{Receiver}{chapter.3}% 46
-\BOOKMARK [2][-]{subsection.3.4.1}{Alamouti Decoder}{section.3.4}% 47
-\BOOKMARK [2][-]{subsection.3.4.2}{QAM Demodulator}{section.3.4}% 48
-\BOOKMARK [1][-]{section.3.5}{Different Systems}{chapter.3}% 49
-\BOOKMARK [2][-]{subsection.3.5.1}{SISO System}{section.3.5}% 50
-\BOOKMARK [2][-]{subsection.3.5.2}{MISO System}{section.3.5}% 51
-\BOOKMARK [2][-]{subsection.3.5.3}{SIMO System}{section.3.5}% 52
-\BOOKMARK [2][-]{subsection.3.5.4}{MIMO System}{section.3.5}% 53
-\BOOKMARK [0][-]{chapter.4}{Results and Inferences}{}% 54
-\BOOKMARK [1][-]{section.4.1}{Parameters for Simulations}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.2}{SISO System Results}{chapter.4}% 56
-\BOOKMARK [1][-]{section.4.3}{SIMO System Results}{chapter.4}% 57
-\BOOKMARK [1][-]{section.4.4}{MISO System Results}{chapter.4}% 58
-\BOOKMARK [1][-]{section.4.5}{MIMO System Results}{chapter.4}% 59
-\BOOKMARK [2][-]{subsection.4.5.1}{MIMO Diversity Case}{section.4.5}% 60
-\BOOKMARK [2][-]{subsection.4.5.2}{MIMO Multiplexing Case}{section.4.5}% 61
-\BOOKMARK [2][-]{subsection.4.5.3}{MIMO Multiplexing with Inverse Channel Estimation Precoder}{section.4.5}% 62
-\BOOKMARK [2][-]{subsection.4.5.4}{MIMO Multiplexing with Singular Value Decomposition Precoder}{section.4.5}% 63
-\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Scope}{}% 64
-\BOOKMARK [1][-]{section.5.1}{Future Scope}{chapter.5}% 65
+\BOOKMARK [1][-]{section.3.3}{Channel Parameters}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.1}{AWGN Noise}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.2}{Rayleigh Fading}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.3}{Path Loss Function}{section.3.3}% 42
+\BOOKMARK [1][-]{section.3.4}{Receiver}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.5}{Operation of the System in Different Modes}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.5.1}{SISO Mode}{section.3.5}% 45
+\BOOKMARK [2][-]{subsection.3.5.2}{SIMO System}{section.3.5}% 46
+\BOOKMARK [2][-]{subsection.3.5.3}{MISO System}{section.3.5}% 47
+\BOOKMARK [2][-]{subsection.3.5.4}{MIMO System}{section.3.5}% 48
+\BOOKMARK [0][-]{chapter.4}{Results and Inferences}{}% 49
+\BOOKMARK [1][-]{section.4.1}{Parameters for Simulations}{chapter.4}% 50
+\BOOKMARK [1][-]{section.4.2}{SISO System Results}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.3}{SIMO System Results}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.4}{MISO System Results}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.5}{MIMO System Results}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.5.1}{MIMO Diversity Case}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.2}{MIMO Multiplexing Case}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.3}{MIMO Multiplexing with Inverse Channel Estimation Precoder}{section.4.5}% 57
+\BOOKMARK [2][-]{subsection.4.5.4}{MIMO Multiplexing with Singular Value Decomposition Precoder}{section.4.5}% 58
+\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Scope}{}% 59
+\BOOKMARK [1][-]{section.5.1}{Future Scope}{chapter.5}% 60

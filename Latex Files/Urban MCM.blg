@@ -1,15 +1,17 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [0] Config.pm:315> INFO - Logfile is 'Urban MCM.blg'
-[116] biber-MSWIN64:330> INFO - === 
-[135] Biber.pm:415> INFO - Reading 'Urban MCM.bcf'
-[252] Biber.pm:952> INFO - Found 12 citekeys in bib section 0
-[270] Biber.pm:4334> INFO - Processing section 0
-[287] Biber.pm:4523> INFO - Looking for bibtex format file './Supporting Files/References.bib' for section 0
-[304] bibtex.pm:1682> INFO - LaTeX decoding ...
-[334] bibtex.pm:1494> INFO - Found BibTeX data source './Supporting Files/References.bib'
-[439] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[439] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[440] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[441] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[479] bbl.pm:651> INFO - Writing 'Urban MCM.bbl' with encoding 'UTF-8'
-[490] bbl.pm:754> INFO - Output to Urban MCM.bbl
+[194] biber-MSWIN64:330> INFO - === 
+[244] Biber.pm:415> INFO - Reading 'Urban MCM.bcf'
+[350] Biber.pm:952> INFO - Found 13 citekeys in bib section 0
+[369] Biber.pm:4334> INFO - Processing section 0
+[399] Biber.pm:4523> INFO - Looking for bibtex format file './Supporting Files/References.bib' for section 0
+[411] bibtex.pm:1682> INFO - LaTeX decoding ...
+[437] bibtex.pm:1494> INFO - Found BibTeX data source './Supporting Files/References.bib'
+[526] Utils.pm:395> WARN - I didn't find a database entry for 'Shannnon1948' (section 0)
+[545] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[545] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[545] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[546] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[594] bbl.pm:651> INFO - Writing 'Urban MCM.bbl' with encoding 'UTF-8'
+[601] bbl.pm:754> INFO - Output to Urban MCM.bbl
+[611] Biber.pm:128> INFO - WARNINGS: 1

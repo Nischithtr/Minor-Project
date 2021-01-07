@@ -32,6 +32,12 @@
 
 \academicYear{2020-2021}
 \QRurl{} %Add QR Code URL to the brackets. Only if we are generating.
+\DeclarePairedDelimiter{\nint}\lfloor\rceil
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
 
 \DraftCopy
 
@@ -40,6 +46,7 @@
 \makeglossaries
 \loadglsentries{./Supporting Files/Glossaries}
 \renewcommand{\glspostdescription}{}% To remove dot at the end
+\renewcommand{\listalgorithmname}{LIST OF ALGORITHMS}   
 
 
 %To add references in IEEE style
@@ -58,7 +65,7 @@
 
 
 
-%%% Start of the report/document%%%
+% Start of the report/document%
 
 \begin{document}
 \maketitle %Add the title page
@@ -99,12 +106,12 @@
 \newpage
 \begin{spacing}{1.5}
 	\cleardoublepage
-	\addcontentsline{toc}{chapter}{\listtablename}
-	\listoftables	%Add list of tables
+    \addcontentsline{toc}{chapter}{List of Algorithms}
+	\listofalgorithms	%Add list of algorithms
 \end{spacing}
 
 \newpage
-\printglossary[type=\acronymtype, title= Abbreviations, toctitle=Abbreviations]
+\printglossary[type=\acronymtype, title= Abbreviations, toctitle=List of Abbreviations]
 \newpage
 \printglossary[title= List of Terms, toctitle=List of Terms]
 

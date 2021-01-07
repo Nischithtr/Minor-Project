@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  6 JAN 2021 00:47
-||||||| merged common ancestors
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.31)  5 JAN 2021 09:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.31)  5 JAN 2021 17:38
->>>>>>> 787713e4a4e61d979e61e59593cef281789d3e9e
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.18)  7 JAN 2021 17:00
 entering extended mode
 **"./Urban MCM.tex"
 ("Urban MCM.tex"
@@ -787,26 +781,67 @@ Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks47
+\c@algorithm=\count352
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count353
+\c@ALC@line=\count354
+\c@ALC@rem=\count355
+\c@ALC@depth=\count356
+\ALC@tlm=\skip81
+\algorithmicindent=\skip82
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/mathtools\mathtools.sty"
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/mathtools\mhsetup.sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count357
+\l_MT_multwidth_dim=\dimen281
+\origjot=\skip83
+\l_MT_shortvdotswithinadjustabove_dim=\dimen282
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen283
+\l_MT_above_intertext_sep=\dimen284
+\l_MT_below_intertext_sep=\dimen285
+\l_MT_above_shortintertext_sep=\dimen286
+\l_MT_below_shortintertext_sep=\dimen287
+\xmathstrut@box=\box67
+\xmathstrut@dim=\dimen288
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/ncctools\nccmath.sty"
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen289
 )
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `"Urban MCM.glo"'.
 
-Package glossaries Info: Writing glossary file "Urban MCM".glo on input line 40
+Package glossaries Info: Writing glossary file "Urban MCM".glo on input line 46
 .
 \glo@acronym@file=\write6
 \openout6 = `"Urban MCM.acn"'.
 
-Package glossaries Info: Writing glossary file "Urban MCM".acn on input line 40
+Package glossaries Info: Writing glossary file "Urban MCM".acn on input line 46
 .
 \glo@symbolList@file=\write7
 \openout7 = `"Urban MCM.sym2"'.
 
 Package glossaries Info: Writing glossary file "Urban MCM".sym2 on input line 4
-0.
+6.
 
 ("Supporting Files/Glossaries.tex")
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
@@ -814,67 +849,67 @@ Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count352
+\lrq@indent=\count358
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count353
-\c@listtotal=\count354
-\c@listcount=\count355
-\c@liststart=\count356
-\c@liststop=\count357
-\c@citecount=\count358
-\c@citetotal=\count359
-\c@multicitecount=\count360
-\c@multicitetotal=\count361
-\c@instcount=\count362
-\c@maxnames=\count363
-\c@minnames=\count364
-\c@maxitems=\count365
-\c@minitems=\count366
-\c@citecounter=\count367
-\c@maxcitecounter=\count368
-\c@savedcitecounter=\count369
-\c@uniquelist=\count370
-\c@uniquename=\count371
-\c@refsection=\count372
-\c@refsegment=\count373
-\c@maxextratitle=\count374
-\c@maxextratitleyear=\count375
-\c@maxextraname=\count376
-\c@maxextradate=\count377
-\c@maxextraalpha=\count378
-\c@abbrvpenalty=\count379
-\c@highnamepenalty=\count380
-\c@lownamepenalty=\count381
-\c@maxparens=\count382
-\c@parenlevel=\count383
-\blx@tempcnta=\count384
-\blx@tempcntb=\count385
-\blx@tempcntc=\count386
-\blx@maxsection=\count387
-\blx@maxsegment@0=\count388
-\blx@notetype=\count389
-\blx@parenlevel@text=\count390
-\blx@parenlevel@foot=\count391
-\blx@sectionciteorder@0=\count392
-\blx@entrysetcounter=\count393
-\blx@biblioinstance=\count394
-\labelnumberwidth=\skip81
-\labelalphawidth=\skip82
-\biblabelsep=\skip83
-\bibitemsep=\skip84
-\bibnamesep=\skip85
-\bibinitsep=\skip86
-\bibparsep=\skip87
-\bibhang=\skip88
+\c@tabx@nest=\count359
+\c@listtotal=\count360
+\c@listcount=\count361
+\c@liststart=\count362
+\c@liststop=\count363
+\c@citecount=\count364
+\c@citetotal=\count365
+\c@multicitecount=\count366
+\c@multicitetotal=\count367
+\c@instcount=\count368
+\c@maxnames=\count369
+\c@minnames=\count370
+\c@maxitems=\count371
+\c@minitems=\count372
+\c@citecounter=\count373
+\c@maxcitecounter=\count374
+\c@savedcitecounter=\count375
+\c@uniquelist=\count376
+\c@uniquename=\count377
+\c@refsection=\count378
+\c@refsegment=\count379
+\c@maxextratitle=\count380
+\c@maxextratitleyear=\count381
+\c@maxextraname=\count382
+\c@maxextradate=\count383
+\c@maxextraalpha=\count384
+\c@abbrvpenalty=\count385
+\c@highnamepenalty=\count386
+\c@lownamepenalty=\count387
+\c@maxparens=\count388
+\c@parenlevel=\count389
+\blx@tempcnta=\count390
+\blx@tempcntb=\count391
+\blx@tempcntc=\count392
+\blx@maxsection=\count393
+\blx@maxsegment@0=\count394
+\blx@notetype=\count395
+\blx@parenlevel@text=\count396
+\blx@parenlevel@foot=\count397
+\blx@sectionciteorder@0=\count398
+\blx@entrysetcounter=\count399
+\blx@biblioinstance=\count400
+\labelnumberwidth=\skip84
+\labelalphawidth=\skip85
+\biblabelsep=\skip86
+\bibitemsep=\skip87
+\bibnamesep=\skip88
+\bibinitsep=\skip89
+\bibparsep=\skip90
+\bibhang=\skip91
 \blx@bcfin=\read3
 \blx@bcfout=\write8
 \blx@langwohyphens=\language79
-\c@mincomprange=\count395
-\c@maxcomprange=\count396
-\c@mincompwidth=\count397
+\c@mincomprange=\count401
+\c@maxcomprange=\count402
+\c@mincompwidth=\count403
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -885,88 +920,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count398
-\c@savedafterword=\count399
-\c@annotator=\count400
-\c@savedannotator=\count401
-\c@author=\count402
-\c@savedauthor=\count403
-\c@bookauthor=\count404
-\c@savedbookauthor=\count405
-\c@commentator=\count406
-\c@savedcommentator=\count407
-\c@editor=\count408
-\c@savededitor=\count409
-\c@editora=\count410
-\c@savededitora=\count411
-\c@editorb=\count412
-\c@savededitorb=\count413
-\c@editorc=\count414
-\c@savededitorc=\count415
-\c@foreword=\count416
-\c@savedforeword=\count417
-\c@holder=\count418
-\c@savedholder=\count419
-\c@introduction=\count420
-\c@savedintroduction=\count421
-\c@namea=\count422
-\c@savednamea=\count423
-\c@nameb=\count424
-\c@savednameb=\count425
-\c@namec=\count426
-\c@savednamec=\count427
-\c@translator=\count428
-\c@savedtranslator=\count429
-\c@shortauthor=\count430
-\c@savedshortauthor=\count431
-\c@shorteditor=\count432
-\c@savedshorteditor=\count433
-\c@labelname=\count434
-\c@savedlabelname=\count435
-\c@institution=\count436
-\c@savedinstitution=\count437
-\c@lista=\count438
-\c@savedlista=\count439
-\c@listb=\count440
-\c@savedlistb=\count441
-\c@listc=\count442
-\c@savedlistc=\count443
-\c@listd=\count444
-\c@savedlistd=\count445
-\c@liste=\count446
-\c@savedliste=\count447
-\c@listf=\count448
-\c@savedlistf=\count449
-\c@location=\count450
-\c@savedlocation=\count451
-\c@organization=\count452
-\c@savedorganization=\count453
-\c@origlocation=\count454
-\c@savedoriglocation=\count455
-\c@origpublisher=\count456
-\c@savedorigpublisher=\count457
-\c@publisher=\count458
-\c@savedpublisher=\count459
-\c@language=\count460
-\c@savedlanguage=\count461
-\c@origlanguage=\count462
-\c@savedoriglanguage=\count463
-\c@pageref=\count464
-\c@savedpageref=\count465
-\shorthandwidth=\skip89
-\shortjournalwidth=\skip90
-\shortserieswidth=\skip91
-\shorttitlewidth=\skip92
-\shortauthorwidth=\skip93
-\shorteditorwidth=\skip94
-\locallabelnumberwidth=\skip95
-\locallabelalphawidth=\skip96
-\localshorthandwidth=\skip97
-\localshortjournalwidth=\skip98
-\localshortserieswidth=\skip99
-\localshorttitlewidth=\skip100
-\localshortauthorwidth=\skip101
-\localshorteditorwidth=\skip102
+\c@afterword=\count404
+\c@savedafterword=\count405
+\c@annotator=\count406
+\c@savedannotator=\count407
+\c@author=\count408
+\c@savedauthor=\count409
+\c@bookauthor=\count410
+\c@savedbookauthor=\count411
+\c@commentator=\count412
+\c@savedcommentator=\count413
+\c@editor=\count414
+\c@savededitor=\count415
+\c@editora=\count416
+\c@savededitora=\count417
+\c@editorb=\count418
+\c@savededitorb=\count419
+\c@editorc=\count420
+\c@savededitorc=\count421
+\c@foreword=\count422
+\c@savedforeword=\count423
+\c@holder=\count424
+\c@savedholder=\count425
+\c@introduction=\count426
+\c@savedintroduction=\count427
+\c@namea=\count428
+\c@savednamea=\count429
+\c@nameb=\count430
+\c@savednameb=\count431
+\c@namec=\count432
+\c@savednamec=\count433
+\c@translator=\count434
+\c@savedtranslator=\count435
+\c@shortauthor=\count436
+\c@savedshortauthor=\count437
+\c@shorteditor=\count438
+\c@savedshorteditor=\count439
+\c@labelname=\count440
+\c@savedlabelname=\count441
+\c@institution=\count442
+\c@savedinstitution=\count443
+\c@lista=\count444
+\c@savedlista=\count445
+\c@listb=\count446
+\c@savedlistb=\count447
+\c@listc=\count448
+\c@savedlistc=\count449
+\c@listd=\count450
+\c@savedlistd=\count451
+\c@liste=\count452
+\c@savedliste=\count453
+\c@listf=\count454
+\c@savedlistf=\count455
+\c@location=\count456
+\c@savedlocation=\count457
+\c@organization=\count458
+\c@savedorganization=\count459
+\c@origlocation=\count460
+\c@savedoriglocation=\count461
+\c@origpublisher=\count462
+\c@savedorigpublisher=\count463
+\c@publisher=\count464
+\c@savedpublisher=\count465
+\c@language=\count466
+\c@savedlanguage=\count467
+\c@origlanguage=\count468
+\c@savedoriglanguage=\count469
+\c@pageref=\count470
+\c@savedpageref=\count471
+\shorthandwidth=\skip92
+\shortjournalwidth=\skip93
+\shortserieswidth=\skip94
+\shorttitlewidth=\skip95
+\shortauthorwidth=\skip96
+\shorteditorwidth=\skip97
+\locallabelnumberwidth=\skip98
+\locallabelalphawidth=\skip99
+\localshorthandwidth=\skip100
+\localshortjournalwidth=\skip101
+\localshortserieswidth=\skip102
+\localshorttitlewidth=\skip103
+\localshortauthorwidth=\skip104
+\localshorteditorwidth=\skip105
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -978,8 +1013,8 @@ Package: expl3 2020-12-07 L3 programming layer (loader)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count466
-\l__pdf_internal_box=\box67
+\l__kernel_color_stack_int=\count472
+\l__pdf_internal_box=\box68
 ))
 Package biblatex Info: expl3
 (biblatex)             2020-12-07 L3 programming layer (loader) 
@@ -999,19 +1034,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-\c@textcitecount=\count467
-\c@textcitetotal=\count468
-\c@textcitemaxnames=\count469
-\c@biburlbigbreakpenalty=\count470
-\c@biburlbreakpenalty=\count471
-\c@biburlnumpenalty=\count472
-\c@biburlucpenalty=\count473
-\c@biburllcpenalty=\count474
+\c@textcitecount=\count473
+\c@textcitetotal=\count474
+\c@textcitemaxnames=\count475
+\c@biburlbigbreakpenalty=\count476
+\c@biburlbreakpenalty=\count477
+\c@biburlnumpenalty=\count478
+\c@biburlucpenalty=\count479
+\c@biburllcpenalty=\count480
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count475
+\c@smartand=\count481
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -1033,8 +1068,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count476
-\c@bbx:relatedtotal=\count477
+\c@bbx:relatedcount=\count482
+\c@bbx:relatedtotal=\count483
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -1046,10 +1081,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric-comp.cbx"
 File: numeric-comp.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count478
-\c@cbx@tempcntb=\count479
-\c@cbx@tempcntc=\count480
-\c@cbx@tempcntd=\count481
+\c@cbx@tempcnta=\count484
+\c@cbx@tempcntb=\count485
+\c@cbx@tempcntc=\count486
+\c@cbx@tempcntd=\count487
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1073,45 +1108,45 @@ File: biblatex.cfg
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty"
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen281
-\ESO@tempdimb=\dimen282
+\ESO@tempdima=\dimen290
+\ESO@tempdimb=\dimen291
 )
-\@quotelevel=\count482
-\@quotereset=\count483
+\@quotelevel=\count488
+\@quotereset=\count489
  ("Urban MCM.aux"
 <Reading QR code for "" at level 1-H from aux file.>
 )
 \openout1 = `"Urban MCM.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
  ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count484
-\scratchdimen=\dimen283
-\scratchbox=\box68
-\nofMPsegments=\count485
-\nofMParguments=\count486
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count487
-\MPscratchDim=\dimen284
-\MPnumerator=\count488
-\makeMPintoPDFobject=\count489
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count490
+\scratchdimen=\dimen292
+\scratchbox=\box69
+\nofMPsegments=\count491
+\nofMParguments=\count492
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count493
+\MPscratchDim=\dimen293
+\MPnumerator=\count494
+\makeMPintoPDFobject=\count495
+\everyMPtoPDFconversion=\toks49
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1151,7 +1186,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 70.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1161,11 +1196,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count490
+\c@section@level=\count496
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
 
 ("Urban MCM.out") ("Urban MCM.out")
 \@outlinefile=\write9
@@ -1185,26 +1220,34 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Urban MCM".bbl' found.
 
-("Urban MCM.bbl")
-Package biblatex Info: Reference section=0 on input line 63.
-Package biblatex Info: Reference segment=0 on input line 63.
+("Urban MCM.bbl"
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Shannnon1948
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 70.
+Package biblatex Info: Reference segment=0 on input line 70.
  
 
 <QR code requested for "" in version 0-M.>
 <Error-correction level increased from M to H at no cost.>
 
-Package hyperref Warning: Suppressing link with empty target on input line 65.
+Package hyperref Warning: Suppressing link with empty target on input line 72.
 
 <Copying the QR code for "" in version 1-H as previously calculated.>
-<Common Figures/RV_newLogo.png, id=266, 916.1728pt x 180.675pt>
+<Common Figures/RV_newLogo.png, id=246, 916.1728pt x 180.675pt>
 File: Common Figures/RV_newLogo.png Graphic file (type png)
 <use Common Figures/RV_newLogo.png>
-Package pdftex.def Info: Common Figures/RV_newLogo.png  used on input line 65.
+Package pdftex.def Info: Common Figures/RV_newLogo.png  used on input line 72.
 (pdftex.def)             Requested size: 452.9679pt x 89.32825pt.
-<Common Figures/RV_logoVecw.png, id=268, 496.4949pt x 490.7133pt>
+<Common Figures/RV_logoVecw.png, id=248, 496.4949pt x 490.7133pt>
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 65.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 72.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
 [1
@@ -1215,7 +1258,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 65.
 {C:/Users/Nagendra KJ/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Com
 mon Figures/RV_newLogo.png> <./Common Figures/RV_logoVecw.png>]
 ("Cover Pages/Certificate.tex"
-<Common Figures/RV_logoVec.png, id=279, 613.5723pt x 613.5723pt>
+<Common Figures/RV_logoVec.png, id=259, 613.5723pt x 613.5723pt>
 File: Common Figures/RV_logoVec.png Graphic file (type png)
 <use Common Figures/RV_logoVec.png>
 Package pdftex.def Info: Common Figures/RV_logoVec.png  used on input line 13.
@@ -1229,11 +1272,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--35
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \newpage
+l.77 \newpage
              
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 70.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 77.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [1 <./Common Figures/RV_logoVec.png>]
@@ -1250,7 +1293,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 )
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 73.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 80.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [2] ("Cover Pages/Acknowledgement.tex"
@@ -1286,7 +1329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 )
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 76.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 83.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [3] ("Cover Pages/Abstract.tex"
@@ -1302,7 +1345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 )
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 80.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 87.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [1
@@ -1327,7 +1370,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 125
 
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 91.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 98.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [4] ("Urban MCM.lof")
@@ -1336,19 +1379,19 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 91.
 
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 99.
-
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 106
+.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [5
 
 
-] ("Urban MCM.lot")
-\tf@lot=\write12
-\openout12 = `"Urban MCM.lot"'.
+] ("Urban MCM.loa")
+\tf@loa=\write12
+\openout12 = `"Urban MCM.loa"'.
 
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 106
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 113
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
 
@@ -1358,7 +1401,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 106
 ] ("Urban MCM.acr"
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 108
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 144
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [7
@@ -1367,13 +1410,13 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 108
 ])
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 108
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 115
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [8] ("Urban MCM.gls")
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 112
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 119
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [9
@@ -1403,7 +1446,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 
 
 ]
-<Chapter 1/Figures/Wireless Communication System Block Diagram.jpg, id=537, 552
+<Chapter 1/Figures/Wireless Communication System Block Diagram.jpg, id=539, 552
 .8655pt x 183.68625pt>
 File: Chapter 1/Figures/Wireless Communication System Block Diagram.jpg Graphic
  file (type jpg)
@@ -1476,7 +1519,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<Chapter 2/Figures/Path Loss.jpg, id=670, 411.33675pt x 254.1495pt>
+<Chapter 2/Figures/Path Loss.jpg, id=672, 411.33675pt x 254.1495pt>
 File: Chapter 2/Figures/Path Loss.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Path Loss.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Path Loss.jpg  used on input line 13
@@ -1488,7 +1531,7 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 21.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
 [9]
-<Chapter 2/Figures/Multipath Propagation.jpg, id=681, 395.67825pt x 177.66376pt
+<Chapter 2/Figures/Multipath Propagation.jpg, id=683, 395.67825pt x 177.66376pt
 >
 File: Chapter 2/Figures/Multipath Propagation.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Multipath Propagation.jpg>
@@ -1521,13 +1564,13 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 39.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
 [11 <./Chapter 2/Figures/Multipath Propagation.jpg>]
-<Chapter 2/Figures/Interference.jpg, id=710, 408.3255pt x 320.397pt>
+<Chapter 2/Figures/Interference.jpg, id=712, 408.3255pt x 320.397pt>
 File: Chapter 2/Figures/Interference.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Interference.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Interference.jpg  used on input line
  50.
 (pdftex.def)             Requested size: 408.3245pt x 320.39621pt.
-<Chapter 2/Figures/Spatial Diversity.png, id=711, 831.105pt x 245.91875pt>
+<Chapter 2/Figures/Spatial Diversity.png, id=713, 831.105pt x 245.91875pt>
 File: Chapter 2/Figures/Spatial Diversity.png Graphic file (type png)
 <use Chapter 2/Figures/Spatial Diversity.png>
 Package pdftex.def Info: Chapter 2/Figures/Spatial Diversity.png  used on input
@@ -1538,7 +1581,7 @@ Overfull \hbox (45.69894pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
-<Chapter 2/Figures/Spatial Multiplexing.jpg, id=712, 621.64992pt x 175.23875pt>
+<Chapter 2/Figures/Spatial Multiplexing.jpg, id=714, 621.64992pt x 175.23875pt>
 
 File: Chapter 2/Figures/Spatial Multiplexing.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Spatial Multiplexing.jpg>
@@ -1563,27 +1606,27 @@ Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 73.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
  [13 <./Chapter 2/Figures/Spatial Diversity.png (PNG copy)> <./Chapter 2/Figure
 s/Spatial Multiplexing.jpg>]
-<Chapter 2/Figures/Frequency Selective Fading.jpg, id=741, 413.1435pt x 169.834
+<Chapter 2/Figures/Frequency Selective Fading.jpg, id=743, 413.1435pt x 169.834
 5pt>
 File: Chapter 2/Figures/Frequency Selective Fading.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Frequency Selective Fading.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Frequency Selective Fading.jpg  used
  on input line 76.
 (pdftex.def)             Requested size: 413.14247pt x 169.83408pt.
-<Chapter 2/Figures/Flat Fading Subchannel.jpg, id=742, 266.1945pt x 181.8795pt>
+<Chapter 2/Figures/Flat Fading Subchannel.jpg, id=744, 266.1945pt x 181.8795pt>
 
 File: Chapter 2/Figures/Flat Fading Subchannel.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Flat Fading Subchannel.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Flat Fading Subchannel.jpg  used on 
 input line 83.
 (pdftex.def)             Requested size: 266.19385pt x 181.87904pt.
-<Chapter 2/Figures/MCM Transmitter.jpg, id=743, 281.853pt x 178.86826pt>
+<Chapter 2/Figures/MCM Transmitter.jpg, id=745, 281.853pt x 178.86826pt>
 File: Chapter 2/Figures/MCM Transmitter.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/MCM Transmitter.jpg>
 Package pdftex.def Info: Chapter 2/Figures/MCM Transmitter.jpg  used on input l
 ine 90.
 (pdftex.def)             Requested size: 281.85231pt x 178.86781pt.
-<Chapter 2/Figures/MCM Receiver.jpg, id=744, 352.31625pt x 193.32225pt>
+<Chapter 2/Figures/MCM Receiver.jpg, id=746, 352.31625pt x 193.32225pt>
 File: Chapter 2/Figures/MCM Receiver.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/MCM Receiver.jpg>
 Package pdftex.def Info: Chapter 2/Figures/MCM Receiver.jpg  used on input line
@@ -1613,19 +1656,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-<Chapter 2/Figures/OFDM Orthogonality.png, id=772, 228.855pt x 108.73958pt>
+<Chapter 2/Figures/OFDM Orthogonality.png, id=774, 228.855pt x 108.73958pt>
 File: Chapter 2/Figures/OFDM Orthogonality.png Graphic file (type png)
 <use Chapter 2/Figures/OFDM Orthogonality.png>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Orthogonality.png  used on inpu
 t line 122.
 (pdftex.def)             Requested size: 228.85443pt x 108.73929pt.
-<Chapter 2/Figures/OFDM Symbol Timing.jpg, id=773, 344.487pt x 63.8385pt>
+<Chapter 2/Figures/OFDM Symbol Timing.jpg, id=775, 344.487pt x 63.8385pt>
 File: Chapter 2/Figures/OFDM Symbol Timing.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/OFDM Symbol Timing.jpg>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Symbol Timing.jpg  used on inpu
 t line 129.
 (pdftex.def)             Requested size: 344.48615pt x 63.83833pt.
-<Chapter 2/Figures/Cyclic Prefix.jpg, id=782, 343.88475pt x 100.57574pt>
+<Chapter 2/Figures/Cyclic Prefix.jpg, id=784, 343.88475pt x 100.57574pt>
 File: Chapter 2/Figures/Cyclic Prefix.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/Cyclic Prefix.jpg>
 Package pdftex.def Info: Chapter 2/Figures/Cyclic Prefix.jpg  used on input lin
@@ -1648,13 +1691,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
-<Chapter 2/Figures/OFDM Transmitter.jpg, id=815, 430.60875pt x 183.68625pt>
+<Chapter 2/Figures/OFDM Transmitter.jpg, id=817, 430.60875pt x 183.68625pt>
 File: Chapter 2/Figures/OFDM Transmitter.jpg Graphic file (type jpg)
 <use Chapter 2/Figures/OFDM Transmitter.jpg>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Transmitter.jpg  used on input 
 line 161.
 (pdftex.def)             Requested size: 430.60768pt x 183.68578pt.
-<Chapter 2/Figures/OFDM Receiver.png, id=817, 803.0pt x 238.8925pt>
+<Chapter 2/Figures/OFDM Receiver.png, id=819, 803.0pt x 238.8925pt>
 File: Chapter 2/Figures/OFDM Receiver.png Graphic file (type png)
 <use Chapter 2/Figures/OFDM Receiver.png>
 Package pdftex.def Info: Chapter 2/Figures/OFDM Receiver.png  used on input lin
@@ -1699,7 +1742,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 281
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 284
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
 [21]
@@ -1707,62 +1750,167 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
 
-)
-File: Common Figures/RV_logoVecw.png Graphic file (type png)
-<use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 123
-.
-(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [22] ("Chapter 3/Chapter 3 - Design.tex"
+) ("Chapter 3/Chapter 3 - Design.tex"
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [23]
+ [22]
 Chapter 3.
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[24
+[23
 
 
 ]
-<Chapter 3/Figures/Block system.png, id=881, 444.91219pt x 124.96687pt>
-File: Chapter 3/Figures/Block system.png Graphic file (type png)
-<use Chapter 3/Figures/Block system.png>
-Package pdftex.def Info: Chapter 3/Figures/Block system.png  used on input line
- 11.
-(pdftex.def)             Requested size: 444.91109pt x 124.96657pt.
+<Chapter 3/Figures/Wireless Communication System Block Diagram.jpg, id=879, 552
+.8655pt x 183.68625pt>
+File: Chapter 3/Figures/Wireless Communication System Block Diagram.jpg Graphic
+ file (type jpg)
+<use Chapter 3/Figures/Wireless Communication System Block Diagram.jpg>
+Package pdftex.def Info: Chapter 3/Figures/Wireless Communication System Block 
+Diagram.jpg  used on input line 12.
+(pdftex.def)             Requested size: 442.29298pt x 146.94917pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 30.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 22.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [25 <./Chapter 3/Figures/Block system.png>]
+[24 <./Chapter 3/Figures/Wireless Communication System Block Diagram.jpg>]
+Overfull \hbox (37.25845pt too wide) in paragraph at lines 38--41
+\OT1/cmr/m/n/12 The ba-sis for our tone load-ing al-go-rithm is the ca-pac-ity 
+law given by Shan-non in [].
+ []
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 43.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 67.
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 72.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [26])
-("Chapter 4/Chapter 4 - Results and Inferences.tex"
+[25]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 124
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [26]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 124
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [27]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 148
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 169
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+[29]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 269
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [30]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 269
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [31]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 269
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [32]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 297
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [33]
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
+
+ []
+
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 325
+.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+) ("Chapter 4/Chapter 4 - Results and Inferences.tex"
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [27]
+ [35]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [36]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [37]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+ [38]
+File: Common Figures/RV_logoVecw.png Graphic file (type png)
+<use Common Figures/RV_logoVecw.png>
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
+(pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
+
+[39]
 Chapter 4.
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[28
+[40
 
 
 ]
-<Chapter 4/Figures/SISO System Performance.jpg, id=910, 465.53925pt x 178.86826
-pt>
+<Chapter 4/Figures/SISO System Performance.jpg, id=1285, 465.53925pt x 178.8682
+6pt>
 File: Chapter 4/Figures/SISO System Performance.jpg Graphic file (type jpg)
 <use Chapter 4/Figures/SISO System Performance.jpg>
 Package pdftex.def Info: Chapter 4/Figures/SISO System Performance.jpg  used on
@@ -1778,8 +1926,8 @@ File: Common Figures/RV_logoVecw.png Graphic file (type png)
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 30.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[29]
-<Chapter 4/Figures/SISO Tone Loading.jpg, id=915, 702.625pt x 526.96875pt>
+[41]
+<Chapter 4/Figures/SISO Tone Loading.jpg, id=1290, 702.625pt x 526.96875pt>
 File: Chapter 4/Figures/SISO Tone Loading.jpg Graphic file (type jpg)
 <use Chapter 4/Figures/SISO Tone Loading.jpg>
 Package pdftex.def Info: Chapter 4/Figures/SISO Tone Loading.jpg  used on input
@@ -1795,10 +1943,10 @@ File: Common Figures/RV_logoVecw.png Graphic file (type png)
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 43.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[30 <./Chapter 4/Figures/SISO System Performance.jpg> <./Chapter 4/Figures/SISO
+[42 <./Chapter 4/Figures/SISO System Performance.jpg> <./Chapter 4/Figures/SISO
  Tone Loading.jpg>]
-<Chapter 4/Figures/SIMO System Performance.jpg, id=928, 483.0045pt x 187.902pt>
-
+<Chapter 4/Figures/SIMO System Performance.jpg, id=1303, 483.0045pt x 187.902pt
+>
 File: Chapter 4/Figures/SIMO System Performance.jpg Graphic file (type jpg)
 <use Chapter 4/Figures/SIMO System Performance.jpg>
 Package pdftex.def Info: Chapter 4/Figures/SIMO System Performance.jpg  used on
@@ -1809,7 +1957,7 @@ Overfull \hbox (30.03542pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
-<Chapter 4/Figures/SIMO Tone Loading.jpg, id=929, 702.625pt x 526.96875pt>
+<Chapter 4/Figures/SIMO Tone Loading.jpg, id=1304, 702.625pt x 526.96875pt>
 File: Chapter 4/Figures/SIMO Tone Loading.jpg Graphic file (type jpg)
 <use Chapter 4/Figures/SIMO Tone Loading.jpg>
 Package pdftex.def Info: Chapter 4/Figures/SIMO Tone Loading.jpg  used on input
@@ -1820,8 +1968,8 @@ Overfull \hbox (38.86624pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
-<Chapter 4/Figures/MISO System Performance.jpg, id=933, 237.88875pt x 136.71075
-pt>
+<Chapter 4/Figures/MISO System Performance.jpg, id=1308, 237.88875pt x 136.7107
+5pt>
 File: Chapter 4/Figures/MISO System Performance.jpg Graphic file (type jpg)
 <use Chapter 4/Figures/MISO System Performance.jpg>
 Package pdftex.def Info: Chapter 4/Figures/MISO System Performance.jpg  used on
@@ -1832,16 +1980,16 @@ File: Common Figures/RV_logoVecw.png Graphic file (type png)
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 74.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[31 <./Chapter 4/Figures/SIMO System Performance.jpg>]
+[43 <./Chapter 4/Figures/SIMO System Performance.jpg>]
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 74.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [32 <./Chapter 4/Figures/SIMO Tone Loading.jpg> <./Chapter 4/Figures/MISO Syst
+ [44 <./Chapter 4/Figures/SIMO Tone Loading.jpg> <./Chapter 4/Figures/MISO Syst
 em Performance.jpg>]
-<Chapter 4/Figures/MIMO Tone Loading Diversity.jpg, id=949, 702.625pt x 526.968
-75pt>
+<Chapter 4/Figures/MIMO Tone Loading Diversity.jpg, id=1324, 702.625pt x 526.96
+875pt>
 File: Chapter 4/Figures/MIMO Tone Loading Diversity.jpg Graphic file (type jpg)
 
 <use Chapter 4/Figures/MIMO Tone Loading Diversity.jpg>
@@ -1853,8 +2001,8 @@ Overfull \hbox (38.86624pt too wide) in paragraph at lines 77--78
  [][] 
  []
 
-<Chapter 4/Figures/MIMO System Performance Diversity.jpg, id=950, 534.19576pt x
- 183.68625pt>
+<Chapter 4/Figures/MIMO System Performance Diversity.jpg, id=1325, 534.19576pt 
+x 183.68625pt>
 File: Chapter 4/Figures/MIMO System Performance Diversity.jpg Graphic file (typ
 e jpg)
 <use Chapter 4/Figures/MIMO System Performance Diversity.jpg>
@@ -1871,9 +2019,9 @@ File: Common Figures/RV_logoVecw.png Graphic file (type png)
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 94.
 
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[33 <./Chapter 4/Figures/MIMO Tone Loading Diversity.jpg>]
-<Chapter 4/Figures/MIMO Tone Loading Multiplexing.jpg, id=961, 702.625pt x 526.
-96875pt>
+[45 <./Chapter 4/Figures/MIMO Tone Loading Diversity.jpg>]
+<Chapter 4/Figures/MIMO Tone Loading Multiplexing.jpg, id=1336, 702.625pt x 526
+.96875pt>
 File: Chapter 4/Figures/MIMO Tone Loading Multiplexing.jpg Graphic file (type j
 pg)
 <use Chapter 4/Figures/MIMO Tone Loading Multiplexing.jpg>
@@ -1885,8 +2033,8 @@ Overfull \hbox (38.86624pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
-<Chapter 4/Figures/MIMO System Performance Multiplexing.jpg, id=962, 439.6425pt
- x 127.07475pt>
+<Chapter 4/Figures/MIMO System Performance Multiplexing.jpg, id=1337, 439.6425p
+t x 127.07475pt>
 File: Chapter 4/Figures/MIMO System Performance Multiplexing.jpg Graphic file (
 type jpg)
 <use Chapter 4/Figures/MIMO System Performance Multiplexing.jpg>
@@ -1899,8 +2047,8 @@ Overfull \hbox (5.7848pt too wide) in paragraph at lines 109--109
 Pre-
  []
 
-<Chapter 4/Figures/MIMO System Performance Inverse Channel Estimation.jpg, id=9
-66, 299.31825pt x 133.6995pt>
+<Chapter 4/Figures/MIMO System Performance Inverse Channel Estimation.jpg, id=1
+341, 299.31825pt x 133.6995pt>
 File: Chapter 4/Figures/MIMO System Performance Inverse Channel Estimation.jpg 
 Graphic file (type jpg)
 <use Chapter 4/Figures/MIMO System Performance Inverse Channel Estimation.jpg>
@@ -1918,27 +2066,27 @@ File: Common Figures/RV_logoVecw.png Graphic file (type png)
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 133
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[34 <./Chapter 4/Figures/MIMO System Performance Diversity.jpg>]
+[46 <./Chapter 4/Figures/MIMO System Performance Diversity.jpg>]
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 133
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [35 <./Chapter 4/Figures/MIMO Tone Loading Multiplexing.jpg> <./Chapter 4/Figu
+ [47 <./Chapter 4/Figures/MIMO Tone Loading Multiplexing.jpg> <./Chapter 4/Figu
 res/MIMO System Performance Multiplexing.jpg>])
 ("Chapter 5/chapter 5 - Conclusion and Future Scope.tex"
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [36 <./Chapter 4/Figures/MIMO System Performance Inverse Channel Estimation.jp
+ [48 <./Chapter 4/Figures/MIMO System Performance Inverse Channel Estimation.jp
 g>]
 Chapter 5.
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
 Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 1.
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[37
+[49
 
 
 ]
@@ -1949,129 +2097,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 )
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 133
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 140
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [38]
-Overfull \hbox (130.76437pt too wide) in paragraph at lines 136--136
+ [50]
+Overfull \hbox (130.76437pt too wide) in paragraph at lines 143--143
 \OT1/cmr/m/n/12 Avail-able: []$\OT1/cmtt/m/n/12 https : / / www . gsmaintellige
 nce . com / research / ?file = 3df1b7d57b1e63a0cbc3d585feb82dc2 &
  []
 
 
-Overfull \hbox (5.16887pt too wide) in paragraph at lines 136--136
+Overfull \hbox (5.16887pt too wide) in paragraph at lines 143--143
 \OT1/cmr/m/n/12 some ap-pli-ca-tions,'' \OT1/cmr/m/it/12 IEEE Trans-ac-tions on
  Au-to-matic Con-trol\OT1/cmr/m/n/12 , vol. 25, no. 2, pp. 164{
  []
 
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 135
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 142
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
-[39
+[51
 
 
 
 ]
 File: Common Figures/RV_logoVecw.png Graphic file (type png)
 <use Common Figures/RV_logoVecw.png>
-Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 139
+Package pdftex.def Info: Common Figures/RV_logoVecw.png  used on input line 146
 .
 (pdftex.def)             Requested size: 496.49368pt x 490.7121pt.
- [40] ("Urban MCM.aux"
+ [52] ("Urban MCM.aux"
 <Reading QR code for "" at level 1-H from aux file.>
 )
 Package rerunfilecheck Info: File `"Urban MCM".out' has not changed.
-(rerunfilecheck)             Checksum: 9E3B0CB1AD535528142F2D5ECCF4943D;4628.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "Urban MCM"
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 435FDB84DD82E2C0772AD1F9F811B4C2;4267.
 Package logreq Info: Writing requests to '"Urban MCM".run.xml'.
 \openout1 = `"Urban MCM.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31875 strings out of 479697
- 594761 string characters out of 2875088
- 1338833 words of memory out of 3000000
- 48123 multiletter control sequences out of 15000+200000
- 415105 words of font info for 66 fonts, out of 3000000 for 9000
+ 33032 strings out of 479697
+ 612494 string characters out of 2875088
+ 1365034 words of memory out of 3000000
+ 49012 multiletter control sequences out of 15000+200000
+ 416289 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,15n,100p,1126b,2241s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:qos} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:modems} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:siso} has been referenced but does not exist, r
-eplaced by a fixed one
-
-<<<<<<< HEAD
-pdfTeX warning (dest): name{glo:simo} has been referenced but does not exist, r
-eplaced by a fixed one
-
- <C:\Users\Nagendra KJ\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
-600\tcrm1200.pk> <C:\Users\Nagendra KJ\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Nagendra KJ\AppData\Local\MiKTeX\2.9
-\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1095.pk><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmtt12.pfb>
-Output written on "Urban MCM.pdf" (53 pages, 1535721 bytes).
-||||||| merged common ancestors
- <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm120
-0.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1095.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
-00\tcbx1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmtt12.pfb>
-Output written on "Urban MCM.pdf" (43 pages, 1202682 bytes).
-=======
- <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm120
-0.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1095.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
-00\tcbx1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmtt12.pfb>
-Output written on "Urban MCM.pdf" (43 pages, 1203907 bytes).
->>>>>>> 787713e4a4e61d979e61e59593cef281789d3e9e
+ 98i,15n,100p,1126b,2341s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Nagendra KJ\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
+pi600\tcrm1200.pk> <C:\Users\Nagendra KJ\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Nagendra KJ\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1095.pk><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
+2.pfb>
+Output written on "Urban MCM.pdf" (65 pages, 1656696 bytes).
 PDF statistics:
- 1131 PDF objects out of 1200 (max. 8388607)
- 218 named destinations out of 1000 (max. 500000)
- 678 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1559 PDF objects out of 1728 (max. 8388607)
+ 466 named destinations out of 1000 (max. 500000)
+ 638 words of extra memory for PDF output out of 10000 (max. 10000000)
 

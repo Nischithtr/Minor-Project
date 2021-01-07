@@ -71,8 +71,8 @@
       \strng{authorbibnamehash}{4e1d41a7bdbb025562c74f6617c4d6d6}
       \strng{authornamehash}{4e1d41a7bdbb025562c74f6617c4d6d6}
       \strng{authorfullhash}{4e1d41a7bdbb025562c74f6617c4d6d6}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Communication Technology}
@@ -103,8 +103,8 @@
       \strng{authorbibnamehash}{674562910cb25215d5ed36034d63f827}
       \strng{authornamehash}{674562910cb25215d5ed36034d63f827}
       \strng{authorfullhash}{674562910cb25215d5ed36034d63f827}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Consumer Electronics}
@@ -142,8 +142,8 @@
       \strng{authorbibnamehash}{ef288b68f67c8c52889d74797d663053}
       \strng{authornamehash}{ef288b68f67c8c52889d74797d663053}
       \strng{authorfullhash}{ef288b68f67c8c52889d74797d663053}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Wireless Communications}
@@ -171,8 +171,8 @@
       \strng{authorbibnamehash}{35fb4b3056e4be472ac9d6a0163f0879}
       \strng{authornamehash}{35fb4b3056e4be472ac9d6a0163f0879}
       \strng{authorfullhash}{35fb4b3056e4be472ac9d6a0163f0879}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Journal on Selected Areas in Communications}
@@ -184,6 +184,40 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1109/49.730453
+      \endverb
+    \endentry
+    \entry{Klema1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a02ec6be9997748cca0711116bdb2dc1}{%
+           family={{Klema}},
+           familyi={K\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2c65ade50771626efd127c5cea304113}{%
+           family={{Laub}},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{fullhash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{bibnamehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{authorbibnamehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{authornamehash}{bb97be46f2a669114ab7f2ae91901736}
+      \strng{authorfullhash}{bb97be46f2a669114ab7f2ae91901736}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{number}{2}
+      \field{title}{The singular value decomposition: Its computation and some applications}
+      \field{volume}{25}
+      \field{year}{1980}
+      \field{pages}{164\bibrangedash 176}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TAC.1980.1102314
       \endverb
     \endentry
     \entry{Hanlen2006}{article}{}
@@ -279,40 +313,6 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0895717711004341
-      \endverb
-    \endentry
-    \entry{Klema1980}{article}{}
-      \name{author}{2}{}{%
-        {{hash=a02ec6be9997748cca0711116bdb2dc1}{%
-           family={{Klema}},
-           familyi={K\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=2c65ade50771626efd127c5cea304113}{%
-           family={{Laub}},
-           familyi={L\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{bb97be46f2a669114ab7f2ae91901736}
-      \strng{fullhash}{bb97be46f2a669114ab7f2ae91901736}
-      \strng{bibnamehash}{bb97be46f2a669114ab7f2ae91901736}
-      \strng{authorbibnamehash}{bb97be46f2a669114ab7f2ae91901736}
-      \strng{authornamehash}{bb97be46f2a669114ab7f2ae91901736}
-      \strng{authorfullhash}{bb97be46f2a669114ab7f2ae91901736}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Automatic Control}
-      \field{number}{2}
-      \field{title}{The singular value decomposition: Its computation and some applications}
-      \field{volume}{25}
-      \field{year}{1980}
-      \field{pages}{164\bibrangedash 176}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1109/TAC.1980.1102314
       \endverb
     \endentry
     \entry{Chow1995}{article}{}
@@ -423,6 +423,7 @@
       \field{year}{2010}
     \endentry
   \enddatalist
+  \missing{Shannnon1948}
 \endrefsection
 \endinput
 
