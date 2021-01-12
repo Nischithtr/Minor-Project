@@ -1,21 +1,21 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 2
 \BOOKMARK [0][-]{chapter*.3}{List of Algorithms}{}% 3
-\BOOKMARK [0][-]{section*.5}{List of Abbreviations}{}% 4
-\BOOKMARK [0][-]{section*.7}{List of Terms}{}% 5
-\BOOKMARK [0][-]{chapter.1}{Introduction to Wireless Communication Systems}{}% 6
-\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.3}{Problem statement}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.4}{Objectives}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.5}{Literature Review}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.5.1}{Multicarrier Systems}{section.1.5}% 12
-\BOOKMARK [2][-]{subsection.1.5.2}{Modulation and Precoding Schemes}{section.1.5}% 13
-\BOOKMARK [2][-]{subsection.1.5.3}{Channel Modeling}{section.1.5}% 14
-\BOOKMARK [2][-]{subsection.1.5.4}{Transceiver Architecture and Channel Loading Methods}{section.1.5}% 15
-\BOOKMARK [1][-]{section.1.6}{Brief Methodology of the project}{chapter.1}% 16
-\BOOKMARK [1][-]{section.1.7}{Assumptions made / Constraints of the project}{chapter.1}% 17
-\BOOKMARK [1][-]{section.1.8}{Organization of the report}{chapter.1}% 18
+\BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 4
+\BOOKMARK [0][-]{section*.6}{List of Abbreviations}{}% 5
+\BOOKMARK [0][-]{section*.8}{List of Terms}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Introduction to Wireless Communication Systems}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{Problem statement}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{Objectives}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.5}{Literature Review}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.5.1}{Multicarrier Systems}{section.1.5}% 13
+\BOOKMARK [2][-]{subsection.1.5.2}{Modulation and Precoding Schemes}{section.1.5}% 14
+\BOOKMARK [2][-]{subsection.1.5.3}{Channel Modeling}{section.1.5}% 15
+\BOOKMARK [2][-]{subsection.1.5.4}{Transceiver Architecture and Channel Loading Methods}{section.1.5}% 16
+\BOOKMARK [1][-]{section.1.6}{Brief Methodology of the project}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.7}{Organization of the report}{chapter.1}% 18
 \BOOKMARK [0][-]{chapter.2}{Theory and Fundamentals of MIMO and MCM}{}% 19
 \BOOKMARK [1][-]{section.2.1}{The Need for MIMO}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.2}{Diversity}{chapter.2}% 21
@@ -47,14 +47,12 @@
 \BOOKMARK [2][-]{subsection.3.5.3}{MISO System}{section.3.5}% 47
 \BOOKMARK [2][-]{subsection.3.5.4}{MIMO System}{section.3.5}% 48
 \BOOKMARK [0][-]{chapter.4}{Results and Inferences}{}% 49
-\BOOKMARK [1][-]{section.4.1}{Parameters for Simulations}{chapter.4}% 50
+\BOOKMARK [1][-]{section.4.1}{List of Simulations and their Parameters}{chapter.4}% 50
 \BOOKMARK [1][-]{section.4.2}{SISO System Results}{chapter.4}% 51
 \BOOKMARK [1][-]{section.4.3}{SIMO System Results}{chapter.4}% 52
 \BOOKMARK [1][-]{section.4.4}{MISO System Results}{chapter.4}% 53
 \BOOKMARK [1][-]{section.4.5}{MIMO System Results}{chapter.4}% 54
 \BOOKMARK [2][-]{subsection.4.5.1}{MIMO Diversity Case}{section.4.5}% 55
-\BOOKMARK [2][-]{subsection.4.5.2}{MIMO Multiplexing Case}{section.4.5}% 56
-\BOOKMARK [2][-]{subsection.4.5.3}{MIMO Multiplexing with Inverse Channel Estimation Precoder}{section.4.5}% 57
-\BOOKMARK [2][-]{subsection.4.5.4}{MIMO Multiplexing with Singular Value Decomposition Precoder}{section.4.5}% 58
-\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Scope}{}% 59
-\BOOKMARK [1][-]{section.5.1}{Future Scope}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.4.5.2}{MIMO Multiplexing with Inverse Channel Estimation Precoder}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.3}{MIMO Multiplexing with Singular Value Decomposition Precoder}{section.4.5}% 57
+\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Scope}{}% 58

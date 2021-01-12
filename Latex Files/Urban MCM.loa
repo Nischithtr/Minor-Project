@@ -1,22 +1,22 @@
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {1}{\ignorespaces Fine Gains Tone Loading Algorithm}}{26}{algorithm.1}%
+\contentsline {algorithm}{\numberline {1}{\ignorespaces Fine Gains Tone Loading Algorithm}}{25}{algorithm.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {2}{\ignorespaces Bits to Constellation Mapping Algorithm}}{27}{algorithm.2}%
+\contentsline {algorithm}{\numberline {2}{\ignorespaces Bits to Constellation Mapping Algorithm}}{26}{algorithm.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {3}{\ignorespaces Estimation Algorithm}}{30}{algorithm.3}%
+\contentsline {algorithm}{\numberline {3}{\ignorespaces Estimation Algorithm}}{29}{algorithm.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {4}{\ignorespaces Constellation to Bits Mapping Algorithm}}{31}{algorithm.4}%
+\contentsline {algorithm}{\numberline {4}{\ignorespaces Constellation to Bits Mapping Algorithm}}{30}{algorithm.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {5}{\ignorespaces Operation in SISO Mode}}{32}{algorithm.5}%
+\contentsline {algorithm}{\numberline {5}{\ignorespaces Operation in SISO Mode}}{31}{algorithm.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {6}{\ignorespaces Operation in SIMO Mode}}{33}{algorithm.6}%
+\contentsline {algorithm}{\numberline {6}{\ignorespaces Operation in SIMO Mode}}{32}{algorithm.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {7}{\ignorespaces Operation in MISO Mode}}{34}{algorithm.7}%
+\contentsline {algorithm}{\numberline {7}{\ignorespaces Operation in MISO Mode}}{33}{algorithm.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {8}{\ignorespaces Operation in MIMO Diversity Mode}}{36}{algorithm.8}%
+\contentsline {algorithm}{\numberline {8}{\ignorespaces Operation in MIMO Diversity Mode}}{35}{algorithm.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {9}{\ignorespaces Operation in MIMO Multiplexing Mode}}{37}{algorithm.9}%
+\contentsline {algorithm}{\numberline {9}{\ignorespaces Operation in MIMO Multiplexing Mode}}{36}{algorithm.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {10}{\ignorespaces Operation in MIMO Multiplexing Mode with Inverse Channel Estimation Precoding}}{38}{algorithm.10}%
+\contentsline {algorithm}{\numberline {10}{\ignorespaces Operation in MIMO Multiplexing Mode with Inverse Channel Estimation Precoding}}{37}{algorithm.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {algorithm}{\numberline {11}{\ignorespaces Operation in MIMO Multiplexing Mode with SVD Precoding}}{39}{algorithm.11}%
+\contentsline {algorithm}{\numberline {11}{\ignorespaces Operation in MIMO Multiplexing Mode with SVD Precoding}}{38}{algorithm.11}%
