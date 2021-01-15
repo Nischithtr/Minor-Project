@@ -1,5 +1,4 @@
 \chapter{Introduction to Wireless Communication Systems} 
-\section[Introduction]{\textbf{Introduction}}
 Guglielmo Marconi invented the wireless radio system in 1895, and since then wireless communication has grown to become ubiquitous. As of 2018, there are 5.1 billion unique mobile phone users with this number expected to touch 5.8 billion between 2018-2025. \parencite{George2017}.
 In all this time, the basic components of a wireless communication systems have remained the same as shown in Figure. 
 \ref{fig:wireless block diagram}
