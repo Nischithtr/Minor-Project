@@ -76,4 +76,4 @@ end
 
 err = sum(bit_stream_rcvd ~= data) ./ n_bits;
 fprintf("The bit error rate is %d \n", err);
-fprintf("The number of cycles is %d \n", no_of_times);
+fprintf("The number of cycles is %d \n", 2*no_of_times);

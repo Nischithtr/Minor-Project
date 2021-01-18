@@ -29,7 +29,7 @@ Apart from these there are certain randomized parameters such as the \gls{raylei
  \hline
  SISO & $10^6$    & - &   0 & 1643\\
  SIMO & $10^6$    & Alamouti Precoding &   0 & 1051\\
- MISO & $10^6$    & - &   0 & 98\\
+ MISO & $10^6$    & - &   0 & 196\\
  MIMO & $10^6$    & Inverse Channel Estimation Precoding and Singular Value Decomposition Precoding &   0 & 98\\
  \hline
 \end{tabular}
@@ -80,7 +80,7 @@ To transmit $10^6$ bits, one needs a total of $1051$ cycles of transmitting bits
 The result for the \acrshort{miso} simulation is shown in the figure \ref{fig:miso system performance}. The \acrshort{ber} is observed to be $0$, which is within the expected range. One need not perform any tone loading as Alamouti precoding scheme is used. 
 
 \textbf{Inference:}\\
-It takes only $98$ cycles to transmit the $10^6$ bits. Since there are multiple transmitting antennas that use Alamouti coding, one is able to send 2 symbols in 2 time intervals, however with increase in the number of antennas the efficiency of the precoding falls. One can use this system to accommodate 2 sets of symbols from the same user thus improving the data rate or symbols from 2 different users thus improving the capacity of the system.
+It takes only $98$ cycles to transmit the $10^6$ bits. Since there are multiple transmitting antennas that use Alamouti coding, one is able to send 2 symbols in 2 time intervals, however with increase in the number of antennas the efficiency of the precoding falls.
 
 
 \begin{figure}[!htbp]
@@ -132,7 +132,7 @@ It takes only $98$ cycles to transmit the $10^6$ bits. One notices how by using 
 The result for the \acrshort{mimo} simulation for multiplexing case with singular value decomposition precoder is shown in the figure \ref{fig:mimo system performance singular value decomposition}. The \acrshort{ber} is observed to be $0$, which is within the expected range. One does not perform any tone loading as the system uses a Singular Value Decomposition precoding scheme. It takes only $98$ cycles to transmit the $10^6$ bits. It is noticed how by using suitable precoding the number of cycles reduce drastically.\\
 
 \textbf{Inference:}\\
-Although the speed of \acrshort{svd} decomposition precoding is similar to that of Inverse Channel Estimation precoding, the speed of execution is noticed to be faster because it is computationally simpler to find the \acrshort{svd} of the matrix than to invert it. This is especially true when the size of the matrix is much larger than $2 \times 2$.
+Although the number of cycles taken by \acrshort{svd} decomposition precoding is similar to that of Inverse Channel Estimation precoding, the speed of execution is noticed to be faster because it is computationally simpler to find the \acrshort{svd} of the matrix than to invert it. This is especially true when the size of the matrix is much larger than $2 \times 2$.
 
 \begin{figure}[!htbp]
 \centering

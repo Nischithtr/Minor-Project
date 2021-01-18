@@ -1,8 +1,22 @@
 \chapter{Results and Inferences}
 
-This chapter looks at the various results of the simulations the models have gone through. It is shown that the system parameter, \acrshort{ber} is within the required limits (less than $10^{-5}$) and the report also discusses the time taken to transmit $10^6$ bits in the various schemes. Comparisons and contrasts are drawn between the results obtained across different schemes and conclusions are drawn.
+The various results of the simulations the models have gone through are examined in the coming sections. It is shown that the system parameter, \acrshort{ber} is within the required limits (less than $10^{-5}$) and the report also discusses the time taken to transmit $10^6$ bits in the various schemes. Comparisons and contrasts are drawn between the results obtained across different schemes and conclusions are drawn.
 
 \section{List of Simulations and their Parameters}
+The list of various simulations and their parameters is given in \ref{List of Simulations and their Parameters}.\\
+
+The common channel parameters for all simulations is as follows
+\begin{itemize}
+\item In all simulations the noise power spectral density is -80 dBm/Hz
+\item The distance between the transmitting and receiving antenna is 1km
+\item The gain of the \acrshort{bs} antenna is 8 and \acrshort{ue} antenna is taken as 1
+\item The maximum number of bits that can be loaded on a subchannel in case of tone loading operation being performed at the transmitter is 20 bits.
+\item The number of subchannels is taken to be 256.
+\item The power input to the transmitter is 1 mW.
+\end{itemize}
+
+Apart from these there are certain randomized parameters such as the \gls{rayleigh fading} coefficient and the noise signal which is additive white Gaussian in nature.
+
 \begin{table}[htpb]
 \centering
 \label{List of Simulations and their Parameters}
@@ -66,7 +80,7 @@ To transmit $10^6$ bits, one needs a total of $1051$ cycles of transmitting bits
 The result for the \acrshort{miso} simulation is shown in the figure \ref{fig:miso system performance}. The \acrshort{ber} is observed to be $0$, which is within the expected range. One need not perform any tone loading as Alamouti precoding scheme is used. 
 
 \textbf{Inference:}\\
-It takes only $98$ cycles to transmit the $10^6$ bits. Since there are multiple transmitting antennas that use Alamouti coding, one is able to send 2 symbols in 2 time intervals, however with increase in the number of antennas the efficiency of the precoding falls. One can use this system to accommodate 2 sets of symbols from the same user thus improving the data rate or symbols from 2 different users thus improving the capacity of the system.
+It takes only $98$ cycles to transmit the $10^6$ bits. Since there are multiple transmitting antennas that use Alamouti coding, one is able to send 2 symbols in 2 time intervals, however with increase in the number of antennas the efficiency of the precoding falls.
 
 
 \begin{figure}[!htbp]
@@ -118,7 +132,7 @@ It takes only $98$ cycles to transmit the $10^6$ bits. One notices how by using 
 The result for the \acrshort{mimo} simulation for multiplexing case with singular value decomposition precoder is shown in the figure \ref{fig:mimo system performance singular value decomposition}. The \acrshort{ber} is observed to be $0$, which is within the expected range. One does not perform any tone loading as the system uses a Singular Value Decomposition precoding scheme. It takes only $98$ cycles to transmit the $10^6$ bits. It is noticed how by using suitable precoding the number of cycles reduce drastically.\\
 
 \textbf{Inference:}\\
-Although the speed of \acrshort{svd} decomposition precoding is similar to that of Inverse Channel Estimation precoding, the speed of execution is noticed to be faster because it is computationally simpler to find the \acrshort{svd} of the matrix than to invert it. This is especially true when the size of the matrix is much larger than $2 \times 2$.
+Although the number of cycles taken by \acrshort{svd} decomposition precoding is similar to that of Inverse Channel Estimation precoding, the speed of execution is noticed to be faster because it is computationally simpler to find the \acrshort{svd} of the matrix than to invert it. This is especially true when the size of the matrix is much larger than $2 \times 2$.
 
 \begin{figure}[!htbp]
 \centering
@@ -128,7 +142,7 @@ Although the speed of \acrshort{svd} decomposition precoding is similar to that 
 \end{figure}
 
 \section*{Summary}
-In this chapter the results of the simulations of our system in various configurations was discussed. Readers clearly see that data rates increase with multiplexing mode and also with precoding. Finally, in the last section the report is concluded and the future scope of the report is discussed and how further improvements can be made to our system is also mentioned.
+This chapter focused on the results of the simulations of the system in various configurations. Readers clearly see that data rates increase with multiplexing mode and also with precoding. Finally, in the last section the report is concluded and the future scope of the report is discussed and how further improvements can be made to our system is also mentioned.
 
 
 
